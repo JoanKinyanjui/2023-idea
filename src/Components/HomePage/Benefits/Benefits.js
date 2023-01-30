@@ -5,7 +5,7 @@ import {VscActivateBreakpoints} from 'react-icons/vsc'
 
 function Benefits() {
   return (
-    <div className='Benefits grid mt-4'>
+    <div className='Benefits grid py-4'>
 <div className='Benefits-container'>
 <div>
     <p className='italic text-sm pt-2'>Spa Benefits</p>
