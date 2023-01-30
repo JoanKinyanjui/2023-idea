@@ -1,0 +1,44 @@
+.Professionals{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: aqua; */
+    margin-top: 3rem;
+}
+.para-galla{
+    width: 70%;
+    margin: auto;
+    /* background-color: brown; */
+    display: flex;
+}
+.Professional-tagline{
+    width: 70%;
+    /* background-color: blue; */
+    margin: auto;
+    text-align: left;
+}
+.Professional-tagline-div{
+    width: 50%;
+    flex-wrap: wrap;
+}
+.para{
+    flex:40%;
+}
+.galla{
+    flex: 60%;
+    height: 40vh !important;
+    border: 1px solid green;
+}
+@media only screen and (max-width:920px){
+  .para-galla{
+    display: flex;
+    width: 90%;
+    flex-direction: column-reverse;
+  }
+  .Professional-tagline{
+    width: 90%;
+  }
+  .Professional-tagline-div{
+    width: 60%;
+    flex-wrap: wrap;
+}
+ }

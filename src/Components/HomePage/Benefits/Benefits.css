@@ -1,0 +1,44 @@
+.Benefits{
+    width: 100vw;
+    height: max-content;
+    background-image: url('https://html.themexriver.com/victoria-spa/images/home-1/adventure-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.Benefits-container{
+    width: 60%;
+    margin: auto;
+}
+.benefits-ul{
+    list-style-type: none;
+    text-align: left;
+}
+.benefits-img{
+    width: 100%;
+    height: max-content;
+}
+.actual-benefits{
+    width: 100%;
+}
+.benefits-icon{
+    color: rgb(28, 223, 28) !important;
+}
+@media only screen and (max-width:1200px){
+    .Benefits-container{
+     width: 70%;
+    }
+ }
+@media only screen and (max-width:920px){
+   .Benefits-container{
+    width: 80%;
+   }
+}
+@media only screen and (max-width:767px){
+    .benefits-img{
+        width: 60%;
+        margin: auto;
+    
+    }
+}
