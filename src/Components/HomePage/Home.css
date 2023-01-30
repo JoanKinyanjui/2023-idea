@@ -28,19 +28,19 @@
     @media only screen and (max-width:920px){
         .carousel{
             width: 100vw;
-            height: 60vh;
+            height: 70vh;
         }
     }
     @media only screen and (max-width:768px){
         .carousel{
             width: 100vw;
-            height: 55vh;
+            height: 60vh;
         }
     }
     @media only screen and (max-width:480px){
         .carousel{
             width: 100vw;
-            height: 50vh;
+            height: 60vh;
         }
     }
     @media only screen and (max-width:320px){
