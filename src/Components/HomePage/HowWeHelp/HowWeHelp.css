@@ -1,0 +1,17 @@
+.Testimonials{
+    width: 70vw;
+    margin: auto;
+}
+.swiper-img{
+    border-radius: 2px;
+    width: 130px;
+    height: 150px;
+    margin: auto;
+    /* color: ; */
+}
+@media only screen and(max-width: 76px){
+    .Testimonials{
+    width: 80vw;
+    margin: auto;
+}
+}

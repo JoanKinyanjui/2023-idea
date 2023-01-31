@@ -51,7 +51,7 @@
 .getStarted{
     width: 50%;
     padding: 10px 5px;
-    background-color:  rgb(72, 211, 65);
+    background-color: rgb(136, 245, 131);
     border-radius: 10px;
     margin: auto;
 }
@@ -94,6 +94,10 @@
     border-radius: 7px;
    
 }
+.g-one{
+  border-radius: 0px 24px 0px 24px;
+  margin: 5px;
+}
    }
    @media only screen and (max-width:520px){
 
@@ -106,4 +110,18 @@
 .Professional-tagline-div{
     width: 90%;
 }
+.g-one{
+  border-radius: 0px 14px 0px 14px;
+  margin: 5px;
+}
    }
+   @media only screen and (max-width:468px){
+
+    .getStarted{
+      width: 40%;
+      margin-top: 3rem;
+      border-radius: 5px;
+     
+  }
+
+     }

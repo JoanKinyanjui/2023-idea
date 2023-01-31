@@ -9,13 +9,17 @@ function CarouselComponent() {
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active " >
+      {/* <div className='carousel-item-div-2 text-8xl'>h</div> */}
     <img src="/images/pexels-antoni-shkraba-5217833.jpg" class="d-block w-100" alt="..."/>
+     <div className='carousel-item-div-2'>h</div>
     </div>
     <div class="carousel-item">
     <img src='/images/pexels-polina-tankilevitch-5234578.jpg' class="d-block w-100 " alt="..." />
+     <div className='carousel-item-div-2'>h</div>
     </div>
     <div class="carousel-item">
       <img src="/images/pexels-alex-green-5699457.jpg" class="d-block w-100" alt="..."/>
+       <div className='carousel-item-div-2'>h</div>
     </div>
   </div>
 </div>

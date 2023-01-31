@@ -1,6 +1,9 @@
+.Navbar{
+    /* background-image: linear-gradient(to top, rgb(67, 68, 66),transparent); */
+}
 .logo-img{
     width: 70px;
-    height: ;
+    /* height: ; */
 }
 .CarouselComponent{
     width: 100vw;
@@ -23,7 +26,14 @@
     .carousel-item{
         width: 100%;
         height: 100%;
+        position: relative;
     
+    }
+    .carousel-item-div-2{
+        position: absolute;
+        top: 0;
+        background-image: linear-gradient(to top,rgb(35, 44, 29),transparent,transparent) !important;
+        /* background-image: linear-gradient(to bottom,rgb(35, 44, 29),transparent,transparent) !important; */
     }
     .carousel-item img{
         width: 100%;
