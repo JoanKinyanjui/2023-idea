@@ -14,21 +14,21 @@ function Reviews() {
  <ul className='flex flex-row mx-8 lg:mx-0 flex-wrap'>
     <li className='mx-auto'>
     <div className='text-center'>
-    <p className='font-medium lg:font-bold text-blue-500 text-2xl sm:text-5xl md:text-7xl pb-4 '>+ {num} </p>
+    <p className='font-medium lg:font-bold text-green-700 text-2xl sm:text-5xl md:text-7xl pb-4 '>+ {num} </p>
     <p className='text-base'> Licensed Therapists</p>
    </div>
     </li>
 
     <li className='mx-auto'>
     <div className='text-center'>
-    <p className='font-medium lg:font-bold text-blue-500 text-2xl sm:text-5xl md:text-7xl pb-4'>+ {num}</p>
+    <p className='font-medium lg:font-bold  text-green-700 text-2xl sm:text-5xl md:text-7xl pb-4'>+ {num}</p>
     <p className='text-base' >People that got help</p>
    </div>
     </li>
 
     <li className='mx-auto'>
     <div className='text-center'>
-    <p className='font-medium lg:font-bold text-blue-500 text-2xl sm:text-5xl md:text-7xl pb-4'>+ {num}</p>
+    <p className='font-medium lg:font-bold  text-green-700 text-2xl sm:text-5xl md:text-7xl pb-4'>+ {num}</p>
     <p className='text-base'> Appointments Completed</p>
    </div>
     </li>
