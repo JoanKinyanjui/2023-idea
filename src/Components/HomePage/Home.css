@@ -32,7 +32,7 @@
     .carousel-item-div-2{
         position: absolute;
         top: 0;
-        background-image: linear-gradient(to top,rgb(35, 44, 29),transparent,transparent) !important;
+        background-image: linear-gradient(to top,rgb(22, 24, 20),transparent,transparent,transparent) !important;
         /* background-image: linear-gradient(to bottom,rgb(35, 44, 29),transparent,transparent) !important; */
     }
     .carousel-item img{
