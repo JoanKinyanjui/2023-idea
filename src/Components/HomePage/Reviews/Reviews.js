@@ -10,7 +10,7 @@ function Reviews() {
      
   return (
     <div className='Reviews'>
-            <div className=' py-24 w-full lg:w-3/4 mx-auto '  >
+            <div className=' py-6 md:py-12 w-full lg:w-3/4 mx-auto '  >
  <ul className='flex flex-row mx-8 lg:mx-0 flex-wrap'>
     <li className='mx-auto'>
     <div className='text-center'>

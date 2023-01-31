@@ -9,10 +9,10 @@ function CarouselComponent() {
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active " >
-      <img src='/images/pexels-polina-tankilevitch-5234578.jpg' class="d-block w-100 " alt="..." />
+    <img src="/images/pexels-antoni-shkraba-5217833.jpg" class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="/images/pexels-antoni-shkraba-5217833.jpg" class="d-block w-100" alt="..."/>
+    <img src='/images/pexels-polina-tankilevitch-5234578.jpg' class="d-block w-100 " alt="..." />
     </div>
     <div class="carousel-item">
       <img src="/images/pexels-alex-green-5699457.jpg" class="d-block w-100" alt="..."/>
