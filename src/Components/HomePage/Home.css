@@ -1,5 +1,5 @@
 .Navbar{
-    /* background-image: linear-gradient(to top, rgb(67, 68, 66),transparent); */
+
 }
 .logo-img{
     width: 70px;
@@ -13,7 +13,7 @@
     }
     .carousel{
         width: 100vw;
-        height: 75vh;
+        height: 80vh;
     }
     .carousel-inner{
         width: 100%;

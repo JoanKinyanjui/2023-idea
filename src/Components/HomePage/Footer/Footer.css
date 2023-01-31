@@ -1,0 +1,72 @@
+.Footer{
+    width: 100vw;
+    height: max-content;
+    /* background-color: rgb(36, 88, 53); */
+    /* background-image: url('/public/images/pexels-fwstudio-129733.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-image: url('/public/images/pexels-tirachard-kumtanom-733852.jpg'); */
+    background-color: rgb(247, 253, 247);
+    /* background-image: url('/public/images/pexels-pixabay-356390.jpg'); */
+    
+}
+.Footer-container{
+    width: 70% !important;
+    /* border: 1px solid red; */
+    margin: auto !important;
+}
+.footer-logo{
+    width: 50px;
+    height: auto;
+}
+.column-1{
+    width: 80%;
+    text-align: left;
+}
+.column-2{
+    width: 80%;
+    text-align: left;
+}
+.column-3{
+    width: 80%;
+    text-align: left;
+}
+.column-4{
+    width: 80%;
+    text-align: left;
+}
+.green-line{
+    width: 15%;
+    height: 3px;
+    background-color: rgb(25, 211, 25);
+}
+.secrets{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-socials{
+    flex-wrap: wrap;
+}
+.end-info-line{
+width: 90%;
+margin: auto !important;
+}
+.allRights{
+    white-space: pre-wrap;
+}
+.payment-means-footer{
+    text-align: left;
+    font-size: small;
+}
+@media only screen and (max-width:920px) {
+    .Footer-container{
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .Footer-container{
+        width: 90% !important;
+    }
+}

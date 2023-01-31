@@ -10,7 +10,7 @@ function SwiperComponent({help}) {
 <div className='swiper-image-div'><img className='swiper-img' src={help.src} /></div>
       <div>
         <p className='text-lg py-2'>{help.title}</p>
-        <p className='text-base text-slate-600 pb-4'>Loving Each other makes it easier  Loving Each other makes it easier Loving Each other makes it easier</p>
+        <p className='text-base text-slate-600 pb-8'>Loving Each other makes iteasier. Loving Each other makes it easier Loving Each other makes it easier</p>
       </div>
 </div>
       

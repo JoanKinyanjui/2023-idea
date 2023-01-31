@@ -2,6 +2,7 @@ import React from 'react'
 import Benefits from './Benefits/Benefits';
 import CarouselComponent from './CarouselComponent'
 import CenterCaption from './CenterCaption';
+import Footer from './Footer/Footer';
 import HowWeHelp from './HowWeHelp/HowWeHelp';
 import NavbarComponent from './NavComponent'
 import Proffessional from './Professional/Proffessional';
@@ -19,6 +20,7 @@ function Home() {
       <Proffessional />
       <Reviews />
       <HowWeHelp />
+      <Footer />
     </div>
   )
 }

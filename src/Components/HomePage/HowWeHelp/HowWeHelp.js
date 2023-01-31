@@ -16,9 +16,9 @@ SwiperCore.use([Autoplay,Pagination,Navigation]);
 
 function HowWeHelp() {
   return (
-    <div className='Testimonials py-8'>
+    <div className='Testimonials py-20'>
         <div className='py-8'>
-            <p className='text-semibold text-3xl py-2'>How We Help You</p>
+            <p className='text-bold text-3xl pb-2'>How We Help You</p>
             <p className='text-slate-700'>The Goal is to create a safe anonymous environment for you to be yourself at an afford able price</p>
         </div>
     <Swiper

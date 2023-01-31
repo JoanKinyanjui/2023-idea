@@ -8,12 +8,12 @@ function Benefits() {
     <div className='Benefits grid py-8'>
 <div className='Benefits-container'>
 <div>
-    <p className='italic text-sm pt-2'>Spa Benefits</p>
+    <p className='italic text-sm pt-2'>Therapy Benefits</p>
     <p className='font-semibold text-xl md:text-2xl py-12'>GOOD FOR YOUR HEALTH</p>
     <p className='text-sm md:text-base text-slate-700'> Spread over two floors, our beautiful spa offer a soothing environment in which you can rest, relax and feel competely rejuvenated.</p>
 </div>
 
-<div className='grid md:flex items-center py-4'>
+<div className='grid md:flex items-center py-8'>
 <div className='benefits-img-div'>
     <img className='benefits-img' src="https://html.themexriver.com/victoria-spa/images/home-1/adventure-img.png"/>
 </div>
