@@ -5,11 +5,11 @@ import {VscActivateBreakpoints} from 'react-icons/vsc'
 
 function Benefits() {
   return (
-    <div className='Benefits grid py-4'>
+    <div className='Benefits grid py-8'>
 <div className='Benefits-container'>
 <div>
     <p className='italic text-sm pt-2'>Spa Benefits</p>
-    <p className='font-semibold text-xl md:text-2xl py-2'>GOOD FOR YOUR HEALTH</p>
+    <p className='font-semibold text-xl md:text-2xl py-12'>GOOD FOR YOUR HEALTH</p>
     <p className='text-sm md:text-base text-slate-700'> Spread over two floors, our beautiful spa offer a soothing environment in which you can rest, relax and feel competely rejuvenated.</p>
 </div>
 

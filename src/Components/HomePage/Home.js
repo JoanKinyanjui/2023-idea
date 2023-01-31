@@ -4,6 +4,7 @@ import CarouselComponent from './CarouselComponent'
 import CenterCaption from './CenterCaption';
 import NavbarComponent from './NavComponent'
 import Proffessional from './Professional/Proffessional';
+import Reviews from './Reviews/Reviews';
 import Works from './Works/Works';
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
       <Works />
       <Benefits />
       <Proffessional />
+      <Reviews />
     </div>
   )
 }
