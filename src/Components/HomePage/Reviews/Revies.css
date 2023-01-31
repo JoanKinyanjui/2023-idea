@@ -1,5 +1,6 @@
 .Reviews{
     width: 100vw;
-    height: 30vh;
+    height: max-content;
     background-color: rgb(196, 245, 193);
+    font-family: System;
 }

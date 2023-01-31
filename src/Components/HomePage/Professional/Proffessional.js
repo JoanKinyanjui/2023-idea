@@ -5,7 +5,7 @@ function Proffessional() {
   return (
     <div className='Professionals'>
         <div className='Professional-tagline'>
-            <p className='Professional-tagline-div text-xl md:text-2xl font-medium py-2'>Proffessional,licensed , and vetted therapists who you can trust</p>
+            <p className='Professional-tagline-div text-2xl md:text-3xl font-medium py-2'>Proffessional,licensed , and vetted therapists who you can trust</p>
         </div>
         <div className='para-galla'>
           

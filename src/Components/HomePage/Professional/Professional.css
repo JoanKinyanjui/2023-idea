@@ -1,8 +1,10 @@
 .Professionals{
     width: 100vw;
-    height: 100vh;
+    height: max-content;
     /* background-color: aqua; */
     margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-family: System;
 }
 .para-galla{
     width: 70%;
@@ -49,18 +51,18 @@
 .getStarted{
     width: 50%;
     padding: 10px 5px;
-    background-color: rgb(28, 223, 28);
+    background-color:  rgb(72, 211, 65);
     border-radius: 10px;
     margin: auto;
 }
 @media only screen and (max-width:920px){
   .para-galla{
     display: flex;
-    width: 90%;
+    width: 80%;
     flex-direction: column-reverse;
   }
   .Professional-tagline{
-    width: 90%;
+    width: 80%;
   }
   .Professional-tagline-div{
     width: 60%;
@@ -70,11 +72,11 @@
  @media only screen and (max-width:768px){
     .para-galla{
       display: flex;
-      width: 90%;
+      width: 80%;
       flex-direction: column-reverse;
     }
     .Professional-tagline{
-      width: 90%;
+      width: 80%;
     }
     .Professional-tagline-div{
       width: 70%;
