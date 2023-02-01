@@ -1,0 +1,97 @@
+.Testimony{
+    width: 100vw;
+    height: 80vh;
+    background-image: url('/public//images/behappy.jpg');
+    /* opacity: 0.5; */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* color: goldenrod; */
+}
+.swiper-img-testimony{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    /* box-shadow: 2px 2px 5px rgb(70, 68, 68); */
+}
+.swiper-img-div-testimony{
+
+}
+.testimony-person{
+    /* background-color: blue; */
+    text-align: left;
+    width: 90%;
+    font-style: italic;
+    margin: auto;
+}
+.testimony-career{
+    /* background-color: blue; */
+    text-align: left;
+    width: 90%;
+    font-style: italic;
+    margin: auto;
+    color: rgb(94, 93, 93);
+    font-size: small;
+}
+.testimony-content{
+    width: 70%;
+    margin: auto;
+    text-align: left;
+}
+.testimony-div-carousel{
+    width: 100%;
+    /* background-color: rgb(251, 251, 255); */
+    /* background-color: transparent; */
+    background-image: linear-gradient(to top,white,white, rgb(238, 232, 232),transparent,transparent);
+    display: flex;
+    opacity: 1;
+}
+@media only screen and (max-width:1200px){
+    .swiper-img-testimony{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+}
+@media only screen and (max-width:920px){
+
+}
+@media only screen and (max-width:786px){
+    .swiper-img-testimony{
+        width: 180px;
+        height: 180px;
+        border-radius: 100%;
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+    .testimony-div-carousel{
+        display: block;
+    }
+    .testimony-person{
+        /* background-color: blue; */
+        text-align: center;
+        width: 90%;
+        font-style: italic;
+        margin: auto;
+    }
+    .testimony-career{
+        /* background-color: blue; */
+        text-align: center;
+        width: 90%;
+        font-style: italic;
+        margin: auto;
+    }
+    .testimony-content{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:420px){
+    .swiper-img-testimony{
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+    }
+}

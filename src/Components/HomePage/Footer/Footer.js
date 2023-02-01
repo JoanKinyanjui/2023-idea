@@ -16,7 +16,7 @@ function Footer() {
 <div className='flex items-center'>  
 <img src='/images/Screenshot_from_2023-01-31_09-33-05-removebg-preview.png' className='footer-logo'/>
 <div className='py-4'>
-        <p className=''>BETTER HELP</p>
+        <p className=''>BETTER YOU</p>
         <div className='green-line'></div>
     </div>
 </div>

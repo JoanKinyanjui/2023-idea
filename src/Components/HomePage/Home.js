@@ -7,6 +7,7 @@ import HowWeHelp from './HowWeHelp/HowWeHelp';
 import NavbarComponent from './NavComponent'
 import Proffessional from './Professional/Proffessional';
 import Reviews from './Reviews/Reviews';
+import Testimony from './Testimony/Testimony';
 // import Testimonials from './Testimonials/Testimonials';
 import Works from './Works/Works';
 
@@ -20,6 +21,7 @@ function Home() {
       <Proffessional />
       <Reviews />
       <HowWeHelp />
+      <Testimony />
       <Footer />
     </div>
   )
