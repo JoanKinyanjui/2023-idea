@@ -15,6 +15,7 @@ import { useState } from "react";
 import './Navbar.css';
 import MenuIcon from "@mui/icons-material/Menu";
 import Navdrawer from "./NavDrawer";
+import { Link } from "react-router-dom";
 const NavbarComponent = () => {
   const [open, setOpen] = useState(false);
   const handleOpen = () => {
@@ -25,7 +26,7 @@ const NavbarComponent = () => {
       <Container maxWidth="xl">
         <Toolbar>
           <Box sx={{ width:{md:'40%',xs:'100%'} }}>
-          <Typography className = 'fitbitName'>Better You<span className='period'>.</span></Typography>
+<Link to='/'> <Typography className = 'fitbitName'>Better You<span className='period'>.</span></Typography></Link>
           </Box>
           <Box
             color="#fff"
@@ -37,7 +38,7 @@ const NavbarComponent = () => {
             }}
           >
                   <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} >About Us</Typography>
-                  <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} >Services</Typography>
+              <Link to='/services'> <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} >Services</Typography></Link>
                   <Typography color="#000"sx={{cursor:'pointer', fontFamily:"System"}} > Blog</Typography>
                   <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} >Join Team</Typography>
           </Box>

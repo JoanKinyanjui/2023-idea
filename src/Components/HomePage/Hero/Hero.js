@@ -1,4 +1,4 @@
-import { Box, Button, Stack, Typography } from '@mui/material'
+import { Box, Button, Link, Stack, Typography } from '@mui/material'
 import React from 'react'
 import video from '../../../assets/videos/pexels-alex-green-5697348.mp4'
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
@@ -23,7 +23,7 @@ function Hero() {
 </div>
 </div>
 <div className='CenterButton'>
-    <button className='Explore-button px-2 sm:px-8 md:px-10 py-0 sm:py-2 md:py-4 text-sm sm:text-lg md:text-xl'>Explore Our Services</button>
+<Link to='/services' >  <button className='Explore-button px-2 py-1 sm:px-8 md:px-10  sm:py-4 md:py-6 text-sm sm:text-lg md:text-xl text-white'>Explore Our Services</button></Link>
 </div>
     </Box>
     </>

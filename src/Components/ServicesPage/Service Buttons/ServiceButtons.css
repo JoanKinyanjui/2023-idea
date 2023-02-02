@@ -1,0 +1,82 @@
+.ServicesPage{
+    background-color: rgb(239, 250, 239);
+    width: 100vw;
+    height: 100vh;
+}
+.ServiceButtons{
+    width: 100vw;
+    height: 85vh;
+    /* border: 1px solid red; */
+    /* margin-top: 100px; */
+    /* background-color: rgb(239, 250, 239); */
+    /* background-image: url('/public/images/pexels-karolina-grabowska-4210784.jpg'); */
+    /* background-image: url('/public/images/pexels-karolina-grabowska-4194856.jpg'); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid-container{
+    justify-content: center;
+    align-items: center;
+    /* height: 80vh !important; */
+    /* border: 1px solid green; */
+    width: 80% !important;
+    margin: auto !important;
+
+}
+.actual-service-button{
+    width: 180px ;
+    height: 64px;
+    border-radius: 30px;
+}
+.individual{
+    background-color: rgb(51, 49, 49);
+    color: white;
+}
+.couple{
+    background-color: rgb(214, 36, 36);
+    color: white;
+}
+.teen{
+    background-color: rgb(47, 148, 47);
+    color: white;
+}
+.psychiatry{
+    background-color: rgb(42, 120, 156);
+    color: white;
+}
+.friend-group{
+    background-color: rgb(126, 49, 126);
+    color: white;
+}
+
+.button-grid{
+    justify-content: center;
+    margin:auto;
+    margin-top: 3rem !important;
+}
+
+@media only screen and (max-width:768px){
+    .grid-container{
+        width: 90% !important;
+    }
+    .actual-service-button{
+        width: 180px ;
+        height: 64px;
+        border-radius: 30px;
+}
+.ServiceButtons{
+    height: 100vh;
+}
+}
+@media only screen and (max-width:468px){
+    .grid-container{
+        width: 100% !important;
+    }
+    .actual-service-button{
+        width: 150px ;
+        height: 54px;
+        border-radius:25px;
+        font-size: small;
+    }
+}

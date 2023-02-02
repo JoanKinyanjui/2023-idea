@@ -25,7 +25,7 @@
 .period {
     color:#2f8d12 !important;
     font-weight: 900 !important;
-    font-size: 30.07px !important;
+    font-size: 50.07px !important;
     line-height: 28.54px !important;
 }
 .links {
@@ -65,6 +65,10 @@
         font-size: x-large !important;
         /* line-height: 28.54px !important; */
     }
+    .period{
+        font-size: 35.07px !important;
+    
+    }
 }
 
 @media only screen and (max-width:568px){
@@ -72,7 +76,11 @@
         font-family: Manrope sans-serif !important;
         color: black !important;
         font-weight: 700 !important;
-        font-size: large !important;
+        font-size: x-large !important;
         /* line-height: 28.54px !important; */
     }
+.period{
+    
+}
+
 }
