@@ -1,7 +1,7 @@
 .Testimonials-t1{
     width: 70vw;
     margin: auto;
-    background-color: rgb(251, 251, 255);
+    background-color: white;
     /* background-image: url('/public/images/pexels-fwstudio-129733.jpg');
     opacity: 1;
     background-position: top;
@@ -78,6 +78,17 @@
 
 }
 @media only screen and (max-width:786px){
+    .Testimony{
+        width: 100vw;
+        height: 80vh;
+        background-image: url('/public//images/behappy.jpg');
+        opacity: 1;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        /* color: goldenrod; */
+    }
     .swiper-img-testimony{
         width: 180px;
         height: 180px;
