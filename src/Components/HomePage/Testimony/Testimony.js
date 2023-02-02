@@ -20,7 +20,7 @@ function Testimony() {
     <div className='Testimony grid items-center'>
             <div className='Testimonials-t1  py-2 md:py-4'>
         <div className='py-0'>
-            <p className='text-black text-xl sm:text-2xl md:text-3xl pb-2'>HERE FROM  TESTIMONIALS</p>
+            <p className='text-black text-xl sm:text-2xl md:text-3xl pb-2'>HEAR FROM  TESTIMONIALS</p>
             <p className='text-slate-600 text-lg py-2'>We always listen to our clients</p>
         </div>
     <Swiper
