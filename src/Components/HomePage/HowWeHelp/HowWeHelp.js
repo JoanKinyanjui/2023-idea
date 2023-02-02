@@ -16,10 +16,10 @@ SwiperCore.use([Autoplay,Pagination,Navigation]);
 
 function HowWeHelp() {
   return (
-    <div className='Testimonials py-20'>
-        <div className='py-8'>
-            <p className='text-bold text-3xl py-8'>How We Help You</p>
-            <p className='text-slate-700'>The Goal is to create a safe anonymous environment for you to be yourself at an afford able price</p>
+    <div className='Testimonials py-12 md:py-20'>
+        <div className='py-0'>
+            <p className='text-bold text-3xl py-6'>How We Help You</p>
+            <p className='text-slate-700 pb-8'>The Goal is to create a safe anonymous environment for you to be yourself at an afford able price</p>
         </div>
     <Swiper
      style={{
@@ -40,7 +40,7 @@ function HowWeHelp() {
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
       autoplay={{
-        delay: 3000,
+        delay: 5000,
         disableOnInteraction: false,
       }}
     >

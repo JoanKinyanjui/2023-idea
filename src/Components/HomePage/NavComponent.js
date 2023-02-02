@@ -1,33 +1,55 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import {RxHamburgerMenu} from "react-icons/rx"
-import {IoIosArrowDown} from 'react-icons/io'
-import Dropdown from 'react-bootstrap/Dropdown';
-import './Home.css'
+
+import {
+  AppBar,
+  Box,
+  Button,
+  Container,
+  IconButton,
+  Toolbar,
+  Typography,
+} from "@mui/material";
 
 
-function NavComponent() {
+
+import { useState } from "react";
+import './Navbar.css';
+import MenuIcon from "@mui/icons-material/Menu";
+import Navdrawer from "./NavDrawer";
+const NavbarComponent = () => {
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => {
+    setOpen(true);
+  };
   return (
-    <div>
-        <Navbar fixed='top' className='Navbar'>
-        <Container >
-          <Navbar.Brand href="#home" className=' text-2xl md:text-4xl font-black text-white flex items-center'><p className='text-white' style={{backgroundColor:"transparent",textShadow:'3px 3px 3px black'}}>Better You</p></Navbar.Brand>
-          <Nav className="justify-content-end">
-            <Nav.Link href="#home" className=' flex md:hidden'><RxHamburgerMenu className='text-green-300 text-2xl' /> </Nav.Link>
-         <div className='hidden md:flex '>
-            <Nav.Link href="#pricing" className=' text-base md:text-md'><p className='text-white'>About Us</p></Nav.Link>
-            <Nav.Link href="#features" className=' text- base md:text-md' ><p className='flex items-center text-white'>Services</p></Nav.Link>
-            <Nav.Link href="#pricing" className=' text-base md:text-md'><p className='text-white'>Blog</p></Nav.Link>
-            <Nav.Link href="#pricing" className=' text-base md:text-md'><p className='text-white'>Join Team</p></Nav.Link>
-         </div>
-          </Nav>
-        </Container>
-      </Navbar>
-
-    </div>
-  )
-}
-
-export default NavComponent
+    <AppBar sx={{background:'#fff',width:"100%",margin:"0" }} >
+      <Container maxWidth="xl">
+        <Toolbar>
+          <Box sx={{ width:{md:'40%',xs:'100%'} }}>
+          <Typography className = 'fitbitName'>Better You<span className='period'>.</span></Typography>
+          </Box>
+          <Box
+            color="#fff"
+            sx={{
+              display: "flex",
+              width: { xs: "5%", md: "60%", lg:'40%' },
+              justifyContent: "space-around",
+              opacity: { xs: 0, md: 1 },
+            }}
+          >
+                  <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} >About Us</Typography>
+                  <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} >Services</Typography>
+                  <Typography color="#000"sx={{cursor:'pointer', fontFamily:"System"}} > Blog</Typography>
+                  <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} >Join Team</Typography>
+          </Box>
+          <Box sx={{ display: { xs: "flex", md: "none" } }}>
+            <IconButton onClick={handleOpen}>
+              <MenuIcon sx={{ color: "#000" }} />
+            </IconButton>
+          </Box>
+          <Navdrawer handleOpen={handleOpen} open={open} setOpen={setOpen} />
+        </Toolbar>
+      </Container>
+    </AppBar>
+  );
+};
+export default NavbarComponent;

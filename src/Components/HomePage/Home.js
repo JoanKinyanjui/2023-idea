@@ -3,6 +3,7 @@ import Benefits from './Benefits/Benefits';
 import CarouselComponent from './CarouselComponent'
 import CenterCaption from './CenterCaption';
 import Footer from './Footer/Footer';
+import Hero from './Hero/Hero';
 import HowWeHelp from './HowWeHelp/HowWeHelp';
 import NavbarComponent from './NavComponent'
 import Proffessional from './Professional/Proffessional';
@@ -15,12 +16,13 @@ function Home() {
   return (
     <div>
       <NavbarComponent />
-      <CarouselComponent />
+      <Hero />
+      {/* <CarouselComponent /> */}
       <Works />
       <Benefits />
-      <Proffessional />
-      <Reviews />
       <HowWeHelp />
+      <Reviews />
+      <Proffessional />
       <Testimony />
       <Footer />
     </div>

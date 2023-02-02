@@ -1,8 +1,27 @@
+.Testimonials-t1{
+    width: 70vw;
+    margin: auto;
+    background-color: white;
+    /* background-image: url('/public/images/pexels-fwstudio-129733.jpg');
+    opacity: 1;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+@media only screen and(max-width: 768px){
+    .Testimonials-t1{
+    width: 80vw;
+    margin: auto;
+}
+}
+
+
 .Testimony{
     width: 100vw;
     height: 80vh;
     background-image: url('/public//images/behappy.jpg');
-    /* opacity: 0.5; */
+    opacity: 1;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,10 +61,10 @@
 .testimony-div-carousel{
     width: 100%;
     /* background-color: rgb(251, 251, 255); */
-    /* background-color: transparent; */
-    background-image: linear-gradient(to top,white,white, rgb(238, 232, 232),transparent,transparent);
+
+    /* background-image: linear-gradient(to top,white,white, rgb(238, 232, 232),transparent,transparent); */
     display: flex;
-    opacity: 1;
+    opacity: 1 !important;
 }
 @media only screen and (max-width:1200px){
     .swiper-img-testimony{
@@ -83,7 +102,7 @@
         margin: auto;
     }
     .testimony-content{
-        width: 70%;
+        width: 90%;
         margin: auto;
         text-align: center;
     }

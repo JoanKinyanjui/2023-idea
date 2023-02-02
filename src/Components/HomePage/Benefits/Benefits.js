@@ -8,8 +8,8 @@ function Benefits() {
     <div className='Benefits grid py-8'>
 <div className='Benefits-container'>
 <div>
-    <p className='italic text-sm pt-2'>Therapy Benefits</p>
-    <p className='font-semibold text-xl md:text-2xl py-12'>GOOD FOR YOUR HEALTH</p>
+    <p className='italic text-sm pt-2'>Better You Benefits</p>
+    <p className='font-semibold text-xl md:text-2xl py-12'>WE CARE ABOUT YOUR MENTAL HEALTH</p>
     <p className='text-sm md:text-base text-slate-700'> Spread over two floors, our beautiful spa offer a soothing environment in which you can rest, relax and feel competely rejuvenated.</p>
 </div>
 
@@ -19,11 +19,11 @@ function Benefits() {
 </div>
 <div className='actual-benefits'>
     <ul className='benefits-ul'>
-        <li className=' py-1' ><p className='flex items-center text-sm uppercase '><VscActivateBreakpoints className='benefits-icon mx-1' />Anonimous</p><p className='italic text-sm text-slate-700' >You don't have to use your real identity neither show your face.</p></li>
-        <li className=' py-1'><p className='flex items-center text-sm uppercase '><VscActivateBreakpoints  className='benefits-icon mx-1'  />Affordable</p> <p  className='italic text-sm text-slate-700'>Safe Haven allows you choose a therapist who offers a price that's convenient for you</p></li>
-        <li className=' py-1'><p className='flex items-center text-sm uppercase '><VscActivateBreakpoints  className='benefits-icon mx-1' />Convenient</p><p  className='italic text-sm text-slate-700'>You can have a therapy session from whatever time with whatever means you prefer audio/chat</p></li>
-        <li className=' py-1'><p className='flex items-center text-sm uppercase '><VscActivateBreakpoints  className='benefits-icon mx-1' />Licensed</p><p  className='italic text-sm text-slate-700'>Our thousands of therapists are licensed and experienced mental health counselors with expertise in a range of issues — including anxiety, depression, substance abuse, trauma, couples therapy, and more.</p></li>
-        <li className=' py-1'><p className='flex items-center text-sm uppercase '><VscActivateBreakpoints  className='benefits-icon mx-1' />Secure</p><p  className='italic text-sm text-slate-700'>We securely store and encrypt all client communications with therapist and our therapists adhere to strict professional and ethical client confidentiality codes.</p></li>
+        <li className=' py-2' ><p className='flex items-center text-sm md:text-base uppercase '><VscActivateBreakpoints className='benefits-icon mx-1' />Anonimous</p><p className='italic text-sm md:text-base text-slate-700' >You don't have to use your real identity neither show your face.</p></li>
+        <li className=' py-2'><p className='flex items-centertext-sm md:text-base uppercase '><VscActivateBreakpoints  className='benefits-icon mx-1'  />Affordable</p> <p  className='italic text-sm md:text-base  text-slate-700'>Safe Haven allows you choose a therapist who offers a price that's convenient for you</p></li>
+        <li className=' py-2'><p className='flex items-center text-sm md:text-base uppercase '><VscActivateBreakpoints  className='benefits-icon mx-1' />Convenient</p><p  className='italic text-sm md:text-base  text-slate-700'>You can have a therapy session from whatever time with whatever means you prefer audio/chat</p></li>
+        <li className=' py-2'><p className='flex items-center text-sm md:text-base uppercase '><VscActivateBreakpoints  className='benefits-icon mx-1' />Licensed</p><p  className='italic text-sm md:text-base  text-slate-700'>Our thousands of therapists are licensed and experienced mental health counselors with expertise in a range of issues — including anxiety, depression, substance abuse, trauma, couples therapy, and more.</p></li>
+        <li className=' py-2'><p className='flex items-center text-sm md:text-base uppercase '><VscActivateBreakpoints  className='benefits-icon mx-1' />Secure</p><p  className='italic text-sm md:text-base  text-slate-700'>We securely store and encrypt all client communications with therapist and our therapists adhere to strict professional and ethical client confidentiality codes.</p></li>
     </ul>
 
 </div>

@@ -16,13 +16,13 @@ function Footer() {
 <div className='flex items-center'>  
 <img src='/images/Screenshot_from_2023-01-31_09-33-05-removebg-preview.png' className='footer-logo'/>
 <div className='py-4'>
-        <p className=''>BETTER YOU</p>
+        <p className=' text-base  md:text-lg'>BETTER YOU</p>
         <div className='green-line'></div>
     </div>
 </div>
 
 <div className='secrets'>
-    <p>Secrets Resorts & Spa Offer adults an escape to Romance and sensuality in a spectacular oceanfront settings</p>
+    <p className='py-1'>Secrets Resorts & Spa Offer adults an escape to Romance and sensuality in a spectacular oceanfront settings</p>
     </div>
  <div className=''>
     <ul className='flex footer-socials'>
@@ -39,13 +39,13 @@ function Footer() {
 <Grid item xs={12} sm={6} md={3}>
   <div className='column-2'>
   <div className='py-4'>
-        <p>ABOUT BETTER HELP</p>
+        <p className='text-base  md:text-lg'>ABOUT BETTER YOU</p>
         <div className='green-line'></div>
     </div>
     <div>
-        <p>Better Help Offices are Located in Kilimani, Palacina House Floor 5</p>
-        <p>General info Contact : +254790236990</p>
-        <p>ite to us at betterhelp@gmail.com</p>
+        <p className='py-1'>Better Help Offices are Located in Kilimani, Palacina House Floor 5</p>
+        <p className='py-1'>General info Contact : +254790236990</p>
+        <p className='py-1'>Write to us at betterhelp@gmail.com</p>
     </div>
     </div>
 </Grid>
@@ -54,16 +54,16 @@ function Footer() {
 <Grid item xs={12} sm={6} md={3}>
   <div className='column-3'>
   <div className='py-4'>
-        <p>EXPLORE</p>
+        <p className='text-base  md:text-lg'>EXPLORE</p>
         <div className='green-line'></div>
     </div>
     <div>
-        <p>Events</p>
-        <p>Login/Register</p>
-        <p>Contact Us</p>
-        <p>Gallery</p>
-        <p>Join Us</p>
-        <p>Bronchure</p>
+        <p className='py-1' >Events</p>
+        <p className='py-1'>Login/Register</p>
+        <p className='py-1'>Contact Us</p>
+        <p className='py-1'>Gallery</p>
+        <p className='py-1'>Join Us</p>
+        <p className='py-1'>Bronchure</p>
     </div>
     </div>
 </Grid>
@@ -72,16 +72,16 @@ function Footer() {
 <Grid item xs={12} sm={6} md={3}>
   <div className='column-4'>
   <div className='py-4'>
-        <p>USEFULL LINKS</p>
+        <p className='text-base  md:text-lg'>USEFULL LINKS</p>
         <div className='green-line'></div>
 </div>
 <div>
-    <p>Find a Therapist</p>
-    <p>Anxiety Test</p>
-    <p>Depression Test</p>
-    <p>Insurance</p>
-    <p>Better Help Reviews</p>
-    <p>Join Our Community</p>
+    <p className='py-1'>Find a Therapist</p>
+    <p className='py-1'>Anxiety Test</p>
+    <p className='py-1'>Depression Test</p>
+    <p className='py-1'>Insurance</p>
+    <p className='py-1'>Better Help Reviews</p>
+    <p className='py-1'>Join Our Community</p>
 </div>
     </div>
 </Grid>
@@ -90,7 +90,7 @@ function Footer() {
 </Grid>
 <hr />
     <div className='end-info-line grid md:flex justify-center pt-4'>
-<p className='allRights text-sm'>BETTER HELP MADE WITH LOVE @ 2016 All Rights Reserved</p>
+<p className='allRights text-sm'>BETTER YOU MADE WITH LOVE @ 2016 All Rights Reserved</p>
 <div className='payment-means-footer'>
     <ul className='flex md:mx-4  justify-center'>
         <li className='mx-2 text-2xl'><FaPaypal /></li>

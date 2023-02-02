@@ -6,11 +6,13 @@ export const help=[
     },
     {id:2,
         title:"Relationship Therapy",
+        src:"/images/pexels-mikhail-nilov-6969643.jpg",
         content:""
     },
     {id:3,
-        title:"Depression",
-        content:""
+        title:"Parenting",
+        content:"",
+        src:"/images/pexels-kampus-production-6297579.jpg",
     },
     {id:4,
         title:"Stress Management",
@@ -19,39 +21,27 @@ export const help=[
     },
     {id:5,
         title:"Self-Esteem Issues",
-        content:""
+        src:"/images/pexels-liza-summer-6382600.jpg"
     },
-     {id:6,
-        title:"Social Anxiety Disorder",
-        content:""
-    },
-    {id:7,
+    {id:6,
         title:"Teen Issues Therapy",
-        content:""
+        src:"/images/pexels-antoni-shkraba-5217833.jpg"
     },
-    {id:8,
-        title:"Psychiatry",
-        content:""
-    },
-    {id:9,
+
+    {id:7,
         title:"Chronic Illness",
         content:"",
         src:"/images/cancer.jpg"
     },
-    {id:10,
+    {id:8,
         title:"Trauma and Grief",
         src:"/images/pexels-ivan-samkov-8964069.jpg"
     },
-    {id:11,
+    {id:9,
         title:"LGBTQIA+",
         src:"/images/pexels-alexander-grey-3738057.jpg"
     },
-    {id:12,
-        title:"Substance Abuse",
-        content:"",
-        src:""
-    },
-    {id:13,
+    {id:10,
         title:"Career Counselling",
         src:"/images/pexels-biola-visuals-15122857.jpg",
         content:""

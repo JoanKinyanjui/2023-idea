@@ -5,14 +5,14 @@ function OneTestimony({help}) {
     console.log(help)
     return (
       <>
-  <div key={help.id} className="testimony-div-carousel py-24">
+  <div key={help.id} className="testimony-div-carousel py-4 md:py-12 mb-4">
   <div className='swiper-image-div-testimony'><img className='swiper-img-testimony' src={help.src} /></div>
         <div className='grid items-center'>
 <div>
-<p className='testimony-person text-lg pt-1'>{help.title}</p>
-<p className='testimony-career text-lg '>Nurse</p>
+<p className='testimony-person text-lg pt-1'>{help.name}</p>
+<p className='testimony-career text-lg '>{help.career}</p>
 </div>
-          <p className='testimony-content text-base text-slate-900 pb-4'>Loving Each other makes iteasier. Loving Each other makes it easier Loving Each other makes it easier</p>
+          <p className='testimony-content text-base sm:text-lg text-slate-900 pb-2 md:pb-4'>{help.testimony}</p>
         </div>
   </div>
         
