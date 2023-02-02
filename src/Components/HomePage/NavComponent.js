@@ -37,7 +37,7 @@ const NavbarComponent = () => {
               opacity: { xs: 0, md: 1 },
             }}
           >
-                  <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} >About Us</Typography>
+                  {/* <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} >About Us</Typography> */}
               <Link to='/services'> <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} >Services</Typography></Link>
                   <Typography color="#000"sx={{cursor:'pointer', fontFamily:"System"}} > Blog</Typography>
                   <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} >Join Team</Typography>

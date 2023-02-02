@@ -1,5 +1,6 @@
 import { Box, Drawer, IconButton, Stack, Typography } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
+import { Link } from "react-router-dom";
 const Navdrawer = ({ open, setOpen }) => {
   return (
     <Box sx={{ display: { xs: "flex", md: "none" } }}>
@@ -16,25 +17,26 @@ const Navdrawer = ({ open, setOpen }) => {
         }}
       >
         <Box
-          // sx={{ width: "100vw", display: "flex", justifyContent: "flex-end" }}
+          sx={{  backgroundColor: 'rgb(239, 250, 239)',width: "100vw", display: "flex" }}
         >
           <IconButton>
-            <CloseIcon sx={{ color: "#000" }} />
+            <CloseIcon sx={{ color: "#000" , backgroundColor: 'rgb(239, 250, 239)'}} />
           </IconButton>
         </Box>
         <Box
           sx={{
           
-            height: "300px",
+            height: "200px",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
             color: "#000",
+            backgroundColor: 'rgb(239, 250, 239)',
           }}
         >
-          <Stack spacing={4}>
-          <Typography color="#000" sx={{cursor:'pointer'}}>About Us</Typography>
-                    <Typography color="#000" sx={{cursor:'pointer'}}> Services</Typography>
+          <Stack spacing={3}>
+          {/* <Typography color="#000" sx={{cursor:'pointer'}}>About Us</Typography> */}
+<Link to='/services'><Typography color="#000" sx={{cursor:'pointer'}}> Services</Typography></Link>
                  <Typography color="#000" sx={{cursor:'pointer'}}> Blog</Typography>
                     <Typography color="#000" sx={{cursor:'pointer'}}>Join Team</Typography>
           </Stack>
