@@ -1,6 +1,7 @@
 .Reviews{
     width: 100vw;
     height: max-content;
-    background-color: rgb(249, 255, 249);
+    background-color: rgb(243, 247, 232);
+    color:   rgb(34, 37, 34) !important;;
  
 }
