@@ -15,7 +15,7 @@ function ServiceButtons() {
 <Grid container spacing={2}  className='grid-container'>
 <Grid item xs={12} className="button-grid" >
     <div className='grid'>
-    <p className='text-black  sm:text-2xl pb-2 md:text-3xl font-black md:py-12'>What Type of Support Are You Looking For ?</p>
+    <p className='text-bold text-lg sm:text-2xl pb-2 md:text-3xl pt-4 sm:py-1 font-black md:py-12'>What Type of Support Are You Looking For ?</p>
     <p className='w-full md:w-3/4 place-self-center'>We Offer Comprehensive online mental health treatment options to meet all your needs</p>
     <div className='flex place-self-center  md:w-3/5 w-full place-content-center py-4 justify-evenly'>
         <p className='flex items-center'><p className='text-2xl md:text-4xl text-green-700 mx-2'><BiMessageRoundedDots /></p>Messaging</p>
