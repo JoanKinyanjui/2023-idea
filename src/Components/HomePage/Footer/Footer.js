@@ -92,7 +92,7 @@ function Footer() {
     <div className='end-info-line grid md:flex justify-center pt-4'>
 <p className='allRights text-sm'>BETTER YOU MADE WITH LOVE @ 2016 All Rights Reserved</p>
 <div className='payment-means-footer'>
-    <ul className='flex md:mx-4  justify-center'>
+    <ul className='flex md:mx-4  justify-center text-green-700'>
         <li className='mx-2 text-2xl'><FaPaypal /></li>
         <li className='mx-2 text-2xl '><SiWebmoney /></li>
         <li className='mx-2 text-2xl'><AiFillBank /></li>

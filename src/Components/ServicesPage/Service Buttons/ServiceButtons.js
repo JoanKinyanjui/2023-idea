@@ -5,7 +5,9 @@ import {BiMessageRoundedDots} from 'react-icons/bi'
 import {TbPhoneCall} from 'react-icons/tb'
 import {IoIosArrowForward} from 'react-icons/io'
 import Footer from '../../HomePage/Footer/Footer';
-import {GiMeditation} from 'react-icons/gi'
+import {GiMeditation} from 'react-icons/gi';
+import 'animate.css';
+import { Link } from 'react-router-dom';
 
 function ServiceButtons() {
   return (
@@ -15,7 +17,7 @@ function ServiceButtons() {
 <Grid container spacing={2}  className='grid-container'>
 <Grid item xs={12} className="button-grid" >
     <div className='grid'>
-    <p className='text-bold text-lg sm:text-2xl pb-2 md:text-3xl pt-4 sm:py-1 font-black md:py-12'>What Type of Support Are You Looking For ?</p>
+    <p className='text-bold text-lg sm:text-2xl pb-4 md:text-3xl pt-4 sm:py-1 font-black md:py-12'>What Type of Support Are You Looking For ?</p>
     <p className='w-full md:w-3/4 place-self-center'>We Offer Comprehensive online mental health treatment options to meet all your needs</p>
     <div className='flex place-self-center  md:w-3/5 w-full place-content-center py-4 justify-evenly'>
         <p className='flex items-center'><p className='text-2xl md:text-4xl text-green-700 mx-2'><BiMessageRoundedDots /></p>Messaging</p>
@@ -26,46 +28,56 @@ function ServiceButtons() {
 
   <Grid item xs={12} sm={6} md={4}  className="button-grid" >
     <div>
-        <button className='actual-service-button individual'>
+      <Link to='/assessmentPage'>
+        <button className='actual-service-button individual animate__animated animate__pulse'  >
             <p>Individual</p>
             <p>( For myself )</p>
         </button>
+        </Link>
     </div>
   </Grid>
 
   <Grid item xs={12} sm={6}md={4} className="button-grid">
     <div>
-    <button className='actual-service-button couple'>
+    <Link to='/assessmentPage'>
+    <button className='actual-service-button couple  animate__animated animate__pulse'>
             <p>Cuople</p>
             <p> (For me and my partner )</p>
     </button>
+    </Link>
     </div>
   </Grid>
 
   <Grid item xs={12} sm={6}md={4} className="button-grid">
     <div>
-    <button className='actual-service-button teen'>
+    <Link to='/assessmentPage'>
+    <button className='actual-service-button teen  animate__animated animate__pulse'>
              <p>Teen</p>
             <p>( For ages 13-17 )</p>
     </button>
+    </Link>
     </div>
   </Grid>
 
   <Grid item xs={12} sm={6}md={4} className="button-grid">
     <div>
-    <button className='actual-service-button friend-group'>
+    <Link to='/assessmentPage'>
+    <button className='actual-service-button friend-group  animate__animated animate__pulse'>
            <p>Friend Group</p>
             <p>( For me and my friends )</p>
     </button>
+    </Link>
     </div>
   </Grid>
 
   <Grid item xs={12} sm={6} md={4} className="button-grid">
     <div>
-    <button className='actual-service-button psychiatry'>
+    <Link to='/assessmentPage'>
+    <button className='actual-service-button psychiatry  animate__animated animate__pulse'>
            <p>Pschiatry</p>
             <p>( For medication mgt )</p>
     </button>
+    </Link>
     </div>
   </Grid>
 

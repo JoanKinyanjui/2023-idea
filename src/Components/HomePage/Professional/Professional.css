@@ -52,7 +52,7 @@
 .getStarted{
     width: 50%;
     padding: 10px 5px;
-    background-color:   rgb(112, 194, 107) !important;
+    /* background-color:   rgb(112, 194, 107) !important; */
     border-radius: 10px;
     margin: auto;
 }

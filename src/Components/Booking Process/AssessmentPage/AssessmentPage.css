@@ -1,0 +1,14 @@
+.AssessmentPage{
+    width: 100vw;
+    height: max-content;
+    margin-top: 80px;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center !important;
+}
+.assessment-questions{
+    text-align: left;
+}
+input[type=checkbox] {
+    accent-color: rgb(9, 65, 9);
+  }

@@ -11,7 +11,7 @@ import {GiGloves} from 'react-icons/gi'
 function Works() {
   return (
     <div className='Works-div py-8'>
-        <p className='text-xl sm:text-2xl italic'> ~ Here's How We Work ~</p>
+        <p className='text-lg sm:text-2xl text-black font-normal '> Here's How We Work </p>
             <div className='Services py-2'>
       <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} style={{margin:"auto",paddingBottom:"10px"}}>
         <Grid item xs={6} md={3} className=''>

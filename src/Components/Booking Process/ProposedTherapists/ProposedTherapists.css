@@ -1,0 +1,67 @@
+.Proposed{
+    width: 100vw;justify-content: center;
+}
+.Howmanymatched{
+    margin-top: 80px;
+    text-align: center;
+    justify-content: center;
+
+}
+.Proposed-therapists{
+    width: 80%;
+    height: max-content;
+    display: flex;
+     margin: auto;
+     margin-bottom: 1rem !important;
+}
+.Proposed-therapist-container{
+    /* border: 1px solid red; */
+    /* width: 80% !important;
+    display: flex;
+    justify-content: center !important;
+    align-content: center !important;
+    text-align: center; */
+}
+.SingleTherapist{
+    width: 100%;
+    height: 42vh;
+    
+   
+    position: relative;
+}
+.single-therapist-absolute{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(to top,black ,transparent, transparent);
+}
+.single-therapist-img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.single-therapist-absolute div{
+    bottom: 0;
+    color: white;
+}
+.single-therapist-info{
+    /* background-color: aquamarine; */
+    width: 95%;
+    text-align: left;
+    /* width: 100%; */
+    /* height: 100%; */
+    position: absolute;
+    color: white;
+    bottom: 0;
+    margin-left: 5px;
+    font-size: small;
+}
+@media only screen and (max-width:520px){
+    .Proposed-therapists{
+        width: 70%;
+    }
+    .SingleTherapist{
+        height: 35vh;
+    }
+}

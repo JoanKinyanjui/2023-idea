@@ -11,7 +11,7 @@ function Proffessional() {
         <div className='para-galla'>
           
             <div className='para text-base sm:text-lg py-2 md:py-4 grid items-start md:mt-24'>Tap into the world's largest network of licensed, accredited, and experienced therapists who can help you with a range of issues including depression, anxiety, relationships, trauma, grief, and more. With our therapists, you get the same professionalism and quality you would expect from an in-office therapist, but with the ability to communicate when and how you want.
-<Link to='/services'> <button className='getStarted'>Get Started</button></Link>
+<Link to='/services'> <button className='getStarted bg-green-600'>Get Started</button></Link>
             </div>
             <div className='galla flex items-center'>
              <div className='galla-img-div' > <img  className='galla-img g-one' src='/images/pexels-sora-shimazaki-5668876.jpg'/></div>

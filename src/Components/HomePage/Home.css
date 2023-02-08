@@ -60,9 +60,7 @@
             height: 60vh;
         }
     }
-    @media only screen and (max-width:320px){
-       
-    }
+
 
 .CenterButton{
 position: absolute;
@@ -257,3 +255,8 @@ justify-content: center;
   }
   }   
   
+
+  /* Animation */
+  .animate__animated.animate__fadeIn{
+    --animate-duration: 10s;
+  }

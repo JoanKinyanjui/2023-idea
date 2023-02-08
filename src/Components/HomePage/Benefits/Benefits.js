@@ -8,7 +8,7 @@ function Benefits() {
     <div className='Benefits grid py-8'>
 <div className='Benefits-container'>
 <div>
-    <p className='italic text-sm pt-2'>Better You Benefits</p>
+    <p className='italic text-sm pt-2 text-green-700'>Better You Benefits</p>
     <p className='font-semibold text-xl md:text-2xl py-12'>WE CARE ABOUT YOUR MENTAL HEALTH</p>
     <p className='text-sm md:text-base text-slate-700'> Spread over two floors, our beautiful spa offer a soothing environment in which you can rest, relax and feel competely rejuvenated.</p>
 </div>
