@@ -9,8 +9,8 @@ function AppointmentPicker() {
       <Datepicker
                 controls={['calendar', 'time']}
                 display="inline"
-                // calendarType="week"
-                // calendarSize={2}
+                calendarType="week"
+                calendarSize={3}
             />
         </div>
     ); 

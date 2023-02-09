@@ -61,11 +61,11 @@ function TherapistsProfile() {
 {/* Calendar */}
 <div className='therapist-profile-two grid items-center' >
 <div className='two-booking-calendar'>
-  <p className='text-xl font-semibold py-4'>Pick A Date</p>
+  <p className='text-xl font-semibold py-4 md:py-0'>Pick A Date</p>
 <AppointmentPicker />
-<div className='py-4'>
+<div className='py-4 md:py-0'>
   <form>
-  <textarea placeholder="add a note ..."  className='w-5/6 px-2 py-2 mt-2 textearea-booking'/>
+  <textarea placeholder="add a note ..."  className='w-5/6 px-2 py-0 md:py-2 mt-2 textearea-booking'/>
 </form>
 </div>
 </div>

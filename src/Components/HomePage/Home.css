@@ -258,5 +258,5 @@ justify-content: center;
 
   /* Animation */
   .animate__animated.animate__fadeIn{
-    --animate-duration: 10s;
+    --animate-duration: 6s;
   }

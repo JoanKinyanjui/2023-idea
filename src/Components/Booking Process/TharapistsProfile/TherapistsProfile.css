@@ -50,7 +50,7 @@ margin: auto;
     width: fit-content;
     background-color: rgb(56, 146, 56) !important;
     margin: auto;
-    margin-top: 2rem !important;
+    margin-top: 1rem !important;
     padding: 5px 12px;
 }
 @media only screen and (max-width:1200px){
@@ -194,7 +194,7 @@ margin: auto;
             width: 120px;
             height:  130px;
             margin-left: 50px;
-            margin-top: 10px;
+            margin-top: 5px;
         }
         .therapist-profile-page-img-div{
             position: absolute;
@@ -228,7 +228,7 @@ margin: auto;
             width: 120px;
             height:  130px;
             margin-left: 50px;
-            margin-top: 5px;
+            margin-top: 0px;
         }
         .therapist-profile-page-img-div{
             position: absolute;

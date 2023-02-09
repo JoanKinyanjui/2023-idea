@@ -145,10 +145,10 @@ function AssessmentPage() {
       </Stepper>
       {activeStep === steps.length && (
         <Paper square elevation={0} sx={{ p: 3 }}>
-          <Button onClick={handleReset} sx={{ mt: 1, mr: 1 }} style={{color:"white", fontSize:'12px',textTransform:'capitalize',backgroundColor:"gray" }}>
+          <Button onClick={handleReset} sx={{ mt: 1, mr: 1 }} style={{color:"white", fontSize:'12px',textTransform:'capitalize',backgroundColor:"green" }}>
             Re-answer
           </Button>
-          <Button onClick={showComponent} sx={{ mt: 1, mr: 1 }} style={{color:"white", fontSize:'12px',textTransform:'capitalize',backgroundColor:"gray"}}>
+          <Button onClick={showComponent} sx={{ mt: 1, mr: 1 }} style={{color:"white", fontSize:'12px',textTransform:'capitalize',backgroundColor:"green"}}>
            Submit
           </Button>
         </Paper>
