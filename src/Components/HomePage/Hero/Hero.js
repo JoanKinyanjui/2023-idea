@@ -1,4 +1,4 @@
-import { Box, Button, Link, Stack, Typography } from '@mui/material'
+import { Box, Button, Stack, Typography } from '@mui/material'
 import React from 'react'
 import video from '../../../assets/videos/pexels-alex-green-5697348.mp4'
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
@@ -6,6 +6,7 @@ import './Hero.css';
 import '../Home.css';
 import {FaRibbon} from 'react-icons/fa';
 import 'animate.css';
+import { Link } from 'react-router-dom';
 
 function Hero() {
   return (
@@ -23,9 +24,11 @@ function Hero() {
     <p className='text-white mx-2  text-xl sm:text-4xl  md:text-4xl lg:text-5xl self-center  animate__animated animate__fadeIn'><FaRibbon /></p>
 </div>
 </div>
+<Link to='/services' >
 <div className='CenterButton'>
-<Link to='/services' >  <button className='Explore-button px-2 py-1 sm:px-8 md:px-10  sm:py-4 md:py-6 text-sm sm:text-lg md:text-xl text-white'>Explore Our Services</button></Link>
+   <button className='Explore-button px-2 py-1 sm:px-8 md:px-10  sm:py-4 md:py-6 text-sm sm:text-lg md:text-xl text-white'>Explore Our Services</button>
 </div>
+</Link>
     </Box>
     </>
   )

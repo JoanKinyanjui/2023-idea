@@ -8,11 +8,11 @@ function SingleTherapist({person}) {
   return (
    <>
    <Link to={person.path}>
-    <div className='SingleTherapist py-2'>
+    <div className='SingleTherapist'>
         <img className='single-therapist-img' src={person.img}/>
    <div className='single-therapist-absolute'>
    </div>
-   <div className='single-therapist-info'>
+   <div className='single-therapist-info pb-2'>
    <div className='flex justify-between'>
      <p className='flex'>
     <RiStarSFill className='text-green-600' />

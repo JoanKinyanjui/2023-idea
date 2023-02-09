@@ -16,14 +16,6 @@ export const therapists=[
         path:"/johnMackenzie"
     },
     {   id:3,
-        name:"Jayne Ng'ang'a",
-        stars:"3",
-        charge:"1000",
-        img:"/images/pexels-juan-vargas-6332273.jpg",
-        specialization:"trauma,family conflict,stress management",
-        path:"/johnMackenzie"
-    },
-    {   id:4,
         name:"Brian Gatete",
         stars:"4",
         charge:"500",
@@ -31,7 +23,7 @@ export const therapists=[
         specialization:"trauma,grief,LGBTQ+",
         path:"/johnMackenzie"
     },
-    {   id:5,
+    {   id:4,
         name:"Alice Muthoni K",
         stars:"5",
         charge:"500",

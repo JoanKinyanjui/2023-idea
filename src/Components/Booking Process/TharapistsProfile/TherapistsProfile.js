@@ -22,7 +22,7 @@ function TherapistsProfile() {
   {/* Profile Info */}
 <div className='therapist-profile-one grid' >
 <div className='therapist-profile-page-img-div w-full grid place-content-center'>
-  <img  src="/images/pexels-cottonbro-studio-6986460.jpg" className='therapist-profile-page-img'/>
+  <img  src="/images/pexels-jonathan-borba-5456794.jpg" className='therapist-profile-page-img'/>
 </div>
 <div className='therapist-profile-page-content-div grid  md:w-5/6 lg:w-3/4 justify-self-center'>
 <div className='therapist-profile-page-content-div-mini'>
@@ -63,11 +63,12 @@ function TherapistsProfile() {
 <div className='two-booking-calendar'>
   <p className='text-xl font-semibold py-4 md:py-0'>Pick A Date</p>
 <AppointmentPicker />
+
+</div>
 <div className='py-4 md:py-0'>
   <form>
-  <textarea placeholder="add a note ..."  className='w-5/6 px-2 py-0 md:py-2 mt-2 textearea-booking'/>
+  <textarea placeholder="add a note ..."  className='w-3/4 px-2 py-0 md:py-2 mt-2 textearea-booking'/>
 </form>
-</div>
 </div>
 <Link to='/paymentPage' ><button className='BookingButton'>Complete Booking</button></Link>
     </div>

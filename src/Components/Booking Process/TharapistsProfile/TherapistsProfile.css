@@ -9,8 +9,15 @@
 flex: 40%;
 /* border: 1px solid green; */
 position: relative;
-background-color: rgb(237, 255, 236);
-color: rgb(1, 26, 1);
+/* background-color: rgb(237, 255, 236); */
+background-image: url('/public/images/pexels-cátia-matos-1072179.jpg');
+/* background-image: url('/public/images/pexels-tausif-hossain-1226302.jpg'); */
+/* background-image: url('/public/images/pexels-alexey-demidov-12726235.jpg'); */
+/* background-image: url('/public/images/pexels-fwstudio-129733.jpg'); */
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+color: rgb(242, 247, 242);
 height: 95vh;
 
 width: 100%;
@@ -31,7 +38,8 @@ width: 100%;
     border-radius: 100%;
     width: 250px;
     height:  300px;
-    box-shadow: 2px 2px 4px rgb(2, 29, 4);
+    /* box-shadow: 2px 2px 4px rgb(68, 70, 68); */
+    border: 1px solid rgb(245, 255, 245);
 }
 .therapist-profile-page-content-div{
     position: absolute;
@@ -95,6 +103,7 @@ margin: auto;
         position: relative;
         height: 25vh;
         width: 100%;
+        background-position: fixed;
         /* display: flex; */
         }
         .therapist-profile-page-img{

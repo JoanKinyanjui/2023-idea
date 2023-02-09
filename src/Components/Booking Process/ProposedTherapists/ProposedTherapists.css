@@ -1,5 +1,6 @@
 .Proposed{
-    width: 100vw;justify-content: center;
+    width: 100vw;
+    justify-content: center;
 }
 .Howmanymatched{
     margin-top: 80px;
@@ -13,14 +14,6 @@
     display: flex;
      margin: auto;
      margin-bottom: 1rem !important;
-}
-.Proposed-therapist-container{
-    /* border: 1px solid red; */
-    /* width: 80% !important;
-    display: flex;
-    justify-content: center !important;
-    align-content: center !important;
-    text-align: center; */
 }
 .SingleTherapist{
     width: 100%;
@@ -57,9 +50,17 @@
     margin-left: 5px;
     font-size: small;
 }
-@media only screen and (max-width:520px){
+@media only screen and (max-width:0px){
     .Proposed-therapists{
-        width: 70%;
+        width: 60%;
+    }
+    .SingleTherapist{
+        height: 40vh;
+    }
+}
+@media only screen and (max-width:600px){
+    .Proposed-therapists{
+        width: 60%;
     }
     .SingleTherapist{
         height: 40vh;

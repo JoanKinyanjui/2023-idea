@@ -21,7 +21,8 @@ function ProposedTherapist() {
   return (
     <div className='Proposed '>
       <BookingNavbar />
-  <div className='Howmanymatched'>    <p className='w-5/6 text-xl font-semibold mx-auto py-4'>You matched with 4 therapists, Choose the one you prefer ...  </p></div>
+  <div className='Howmanymatched'>    
+  <p className='w-5/6 text-xl font-semibold mx-auto py-4'>You've matched with 4 therapists, Choose the one you prefer ...  </p></div>
       <div className='Proposed-therapists '>
       
     <Box sx={{ flexGrow: 1 }} className='Proposed-therapist-container flex'>
