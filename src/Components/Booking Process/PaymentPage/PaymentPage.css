@@ -1,0 +1,102 @@
+.tabs-div-bigscreen{
+    width: 100vw;
+    /* background-color: rgb(119, 179, 79); */
+    height: 50vh;
+    margin-top: 200px;
+}
+.tab-content-bigscreen{
+    width: 100%;
+    /* background-color: aqua; */
+}
+.spec-nav-tab-bigscreen{
+    /* background-color: transparent !important; */
+    color: rgb(7, 5, 5) !important;
+    /* background-color: rgb(43, 189, 43) !important;
+    color: white !important; */
+}
+.nav-pills .nav-link.active{
+    background-color: rgb(56, 146, 56) !important;
+    color: white !important;
+    border-radius: 5px !important;
+}
+.spec-nav-tab-bigscreen:focus{
+    background-color: rgb(56, 146, 56) !important;
+    color: white !important;
+
+}
+.input-payment{
+    background-color: rgb(244, 250, 244);
+    width: 200px;
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+.input-payment-expiry{
+    width: 100px;
+    background-color: rgb(244, 250, 244);
+    margin-left: 10px;
+}
+.label-payment{
+    width: 130px; 
+    text-align: left;
+    padding: 5px 10px;
+}
+.confirm-payment{
+    background-color: rgb(56, 146, 56) !important;
+    border-radius: 5px !important;
+}
+
+.mpesa-img{
+    width: 200px;
+    height: auto;
+}
+.paypal-img{
+    width: 140px;
+    height: auto;
+}
+
+
+.tabs-div-smallscreen{
+    width: 100vw;
+    /* background-color: rgb(121, 196, 71); */
+    height: 50vh;
+    margin-top: 80px;
+}
+.tab-content-smallscreen{
+    width: 100vw;
+    /* background-color: rgb(115, 138, 138); */
+    margin: auto  !important;
+}
+
+@media only screen and (max-width:390px){
+ .spec-nav-tab{
+    font-size: x-small;
+ }
+ 
+.tabs-div-smallscreen{
+    width: 100vw;
+    /* background-color: rgb(121, 196, 71); */
+    height: 50vh;
+    margin-top: 80px !important;
+}
+.tab-content-smallscreen{
+    width: 100vw;
+    /* background-color: rgb(115, 138, 138); */
+    margin: auto  !important;
+}
+.label-payment{
+   font-size: smaller;
+   padding: 2px 8px;
+   width: 80px;
+}
+.input-payment{
+    background-color: rgb(244, 250, 244);
+    width: 160px;
+    margin-left: 3px;
+    padding: 2px 10px;
+}
+.input-payment-expiry{
+    width: 80px;
+    background-color: rgb(244, 250, 244);
+    margin-left: 10px;
+}
+}

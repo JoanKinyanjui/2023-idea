@@ -8,7 +8,7 @@ function SingleTherapist({person}) {
   return (
    <>
    <Link to={person.path}>
-    <div className='SingleTherapist'>
+    <div className='SingleTherapist py-2'>
         <img className='single-therapist-img' src={person.img}/>
    <div className='single-therapist-absolute'>
    </div>
@@ -21,7 +21,7 @@ function SingleTherapist({person}) {
     <RiStarSFill  className='text-green-600' />
     </p> 
     <p>Ksh {person.charge}</p></div>
-    <p>John Markenzie</p>
+    <p>{person.name}</p>
     <p className='flex items-center'> <TiTick  className='text-green-600 '/>{person.specialization} ...</p>
    </div>
     </div>
