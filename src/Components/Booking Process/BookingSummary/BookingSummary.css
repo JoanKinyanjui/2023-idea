@@ -1,6 +1,12 @@
 .Summary{
     width: 100vw;
     margin-top: 8vh;
+    height: 95vh;
+    background-image: url('/public/images/vecteezy_background-metalic-green_by_0120.jpg');
+    /* background-image: url('/public/images/wave (2).png'); */
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
 }
 .Summary-content{
     width: 60%;
@@ -9,6 +15,7 @@
     /* background-color: rgb(235, 253, 238); */
     text-align: left;
     font-size: medium !important;
+    /* background-image: linear-gradient(to top ,white,white,transparent); */
 }
 .first-part{
     width: 100px;
@@ -21,6 +28,7 @@
         width: 80%;
         height: 30vh;
     }
+
 }
 @media only screen and (max-width:468px){
     .Summary-content{
