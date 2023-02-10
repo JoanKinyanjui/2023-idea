@@ -1,6 +1,8 @@
 import { Box, Drawer, IconButton, Stack, Typography } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import { Link } from "react-router-dom";
+import {RiAccountCircleFill} from 'react-icons/ri'
+
 const Navdrawer = ({ open, setOpen }) => {
   return (
     <Box sx={{ display: { xs: "flex", md: "none" } }}>
@@ -39,6 +41,7 @@ const Navdrawer = ({ open, setOpen }) => {
 <Link to='/services'><Typography color="#000" sx={{cursor:'pointer'}}> Services</Typography></Link>
                  <Typography color="#000" sx={{cursor:'pointer'}}> Blog</Typography>
                     <Typography color="#000" sx={{cursor:'pointer'}}>Join Team</Typography>
+                    <Link to='/login'> <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} ><RiAccountCircleFill className="md:text-2xl text-xl" /></Typography> </Link>
           </Stack>
         </Box>
       </Drawer>

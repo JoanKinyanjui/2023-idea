@@ -3,6 +3,8 @@
     height: max-content;
     background-color: white;
     font-family: System;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 .Services{
     width: 100vw;
@@ -72,6 +74,10 @@ margin-top: 1rem;
 }
 }
 @media only screen and (max-width: 768px){
+    .Works-div{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
     .Services-div{
     display: block;
     margin: auto;

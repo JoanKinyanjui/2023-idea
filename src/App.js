@@ -7,7 +7,9 @@ import AssessmentPage from './Components/Booking Process/AssessmentPage/Assessme
 import ProposedTherapist from './Components/Booking Process/ProposedTherapists/ProposedTherapist';
 import TherapistsProfile from './Components/Booking Process/TharapistsProfile/TherapistsProfile';
 import PaymentPage from './Components/Booking Process/PaymentPage/PaymentPage';
-import BookingSummary from './Components/Booking Process/BookingSummary/BookingSummary'
+import BookingSummary from './Components/Booking Process/BookingSummary/BookingSummary';
+import Login from './Components/Account/Login';
+import SignUp from './Components/Account/SignUp';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
     <Route exact path='/johnMackenzie' element={<TherapistsProfile />} />
     <Route exact path='/paymentPage' element={<PaymentPage />} />
     <Route exact path='/summary' element={<BookingSummary />} />
+    <Route exact path='/login' element={<Login />} />
+    <Route exact path='/signup' element={<SignUp />} />
     </Routes>
       </div>
     </Router>

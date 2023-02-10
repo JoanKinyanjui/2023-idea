@@ -1,6 +1,9 @@
 .Testimonials{
     width: 70vw;
     margin: auto;
+    /* background-color: grey !important; */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 .swiper-img{
     border-radius: 2px;
@@ -22,6 +25,8 @@
 .Testimonials{
     width: 80vw;
     margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .swiper-img{
     border-radius: 2px;

@@ -6,6 +6,8 @@
     margin-bottom: 3rem;
     /* font-family: System; */
     font-family: System;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 .para-galla{
     width: 70%;
@@ -71,6 +73,10 @@
 }
  }
  @media only screen and (max-width:768px){
+  .Professionals{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
     .para-galla{
       display: flex;
       width: 80%;

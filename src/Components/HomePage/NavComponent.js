@@ -8,14 +8,14 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
-
-
-
 import { useState } from "react";
 import './Navbar.css';
 import MenuIcon from "@mui/icons-material/Menu";
 import Navdrawer from "./NavDrawer";
 import { Link } from "react-router-dom";
+import {RiAccountCircleFill} from 'react-icons/ri'
+
+
 const NavbarComponent = () => {
   const [open, setOpen] = useState(false);
   const handleOpen = () => {
@@ -38,9 +38,10 @@ const NavbarComponent = () => {
             }}
           >
                   {/* <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} >About Us</Typography> */}
-              <Link to='/services'> <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} >Services</Typography></Link>
+              <Link to='/services'> <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} >Services</Typography> </Link>
                   <Typography color="#000"sx={{cursor:'pointer', fontFamily:"System"}} > Blog</Typography>
                   <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} >Join Team</Typography>
+                  <Link to='/login'> <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} ><RiAccountCircleFill className="md:text-2xl text-xl" /></Typography> </Link>
           </Box>
           <Box sx={{ display: { xs: "flex", md: "none" } }}>
             <IconButton onClick={handleOpen}>
