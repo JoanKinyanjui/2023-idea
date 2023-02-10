@@ -13,29 +13,30 @@ const onHandleSubmit =async(e)=>{
     e.preventDefault();
     setPassword('');
     setEmail('');
+    navigate('/')
 
     //Login Logic ...
-    const response = await fetch('http://localhost:3000/login',{
-        method:'POST',
-        headers:{
-          'Content-Type':'application/json'
-        },
-        body:JSON.stringify({
-          email,
-          password
-        }),
-       });
-    console.log(email,password)
-    if(response.status == 200){
-        const {user} = await response.json();
-        await setMessage(`You have successfully loggedIn with account${user.username}`);
-        console.log('successfully logged in')
-        navigate('/');
-    }else if(response.status == 400){
-        const {error}=await  response.json();
-        await setMessage(error.message)
+    // const response = await fetch('http://localhost:3000/login',{
+    //     method:'POST',
+    //     headers:{
+    //       'Content-Type':'application/json'
+    //     },
+    //     body:JSON.stringify({
+    //       email,
+    //       password
+    //     }),
+    //    });
+    // console.log(email,password)
+    // if(response.status == 200){
+    //     const {user} = await response.json();
+    //     await setMessage(`You have successfully loggedIn with account${user.username}`);
+    //     console.log('successfully logged in')
+    //     navigate('/');
+    // }else if(response.status == 400){
+    //     const {error}=await  response.json();
+    //     await setMessage(error.message)
 
-    }
+    // }
 }
 
 
