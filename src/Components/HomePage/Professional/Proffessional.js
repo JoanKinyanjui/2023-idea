@@ -15,7 +15,7 @@ function Proffessional() {
             </div>
             <div className='galla flex items-center'>
              <div className='galla-img-div' > <img  className='galla-img g-one' src='/images/pexels-sora-shimazaki-5668876.jpg'/></div>
-             <div className='galla-img-div'><img  className='galla-img g-one' src='/images/pexels-kebs-visuals-5125172.jpg'/></div>
+             <div className='galla-img-div'><img  className='galla-img g-one' src='/images/pexels-jonathan-borba-5456794.jpg'/></div>
              <div className='galla-img-div'><img  className='galla-img g-one' src='/images/pexels-gustavo-fring-4173177.jpg'/></div>
              <div className='galla-img-div'><img  className='galla-img g-one' src='/images/pexels-george-milton-6954034.jpg'/></div>
              <div className='galla-img-div'><img  className='galla-img g-one' src='/images/pexels-katerina-holmes-5905743.jpg'/></div>
