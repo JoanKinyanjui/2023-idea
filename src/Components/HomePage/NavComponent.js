@@ -41,7 +41,7 @@ const NavbarComponent = () => {
               <Link to='/services'> <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} >Services</Typography> </Link>
                   <Typography color="#000"sx={{cursor:'pointer', fontFamily:"System"}} > Blog</Typography>
                   <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} >Join Team</Typography>
-                  <Link to='/login'> <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} ><RiAccountCircleFill className="md:text-2xl text-xl" /></Typography> </Link>
+                  <Link to='/loggedin'> <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} ><RiAccountCircleFill className="md:text-2xl text-xl" /></Typography> </Link>
           </Box>
           <Box sx={{ display: { xs: "flex", md: "none" } }}>
             <IconButton onClick={handleOpen}>

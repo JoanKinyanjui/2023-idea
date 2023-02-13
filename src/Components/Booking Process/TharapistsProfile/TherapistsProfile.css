@@ -47,6 +47,7 @@ width: 100%;
     display: block;
     width: 80%;
     margin: auto !important;
+   font-size: large;
 }
 .textearea-booking{
     background-color: rgb(229, 247, 229);
@@ -101,7 +102,7 @@ margin: auto;
     .therapist-profile-one{
         flex: 100%;
         position: relative;
-        height: 25vh;
+        height: 30vh;
         width: 100%;
         background-position: fixed;
         /* display: flex; */
@@ -109,7 +110,7 @@ margin: auto;
         .therapist-profile-page-img{
             border-radius: 100%;
             width: 160px;
-            height:  200px;
+            height:  180px;
             margin-left: 60px;
             margin-top: px;
         }
@@ -135,7 +136,7 @@ margin: auto;
         .therapist-profile-page-img{
             border-radius: 100%;
             width: 130px;
-            height:  160px;
+            height:  150px;
             margin-left: 50px;
             margin-top: 5px;
         }
@@ -151,6 +152,9 @@ margin: auto;
             width: 90%;
             margin: auto !important;
         }
+        .therapist-profile-page-content-div{
+            font-size: medium;
+        }
 
 }
 @media only screen and (max-width:520px){
@@ -161,14 +165,14 @@ margin: auto;
         flex: 100%;
         font-size: small;
         position: relative;
-        height: 30vh;
+        height: 25vh;
         width: 100%;
         /* display: flex; */
         }
         .therapist-profile-page-img{
             border-radius: 100%;
-            width: 130px;
-            height:  160px;
+            width: 120px;
+            height:  140px;
             margin-left: 50px;
             margin-top: 25px;
         }
@@ -183,6 +187,7 @@ margin: auto;
             display: block;
             width: 90%;
             margin: auto !important;
+            font-size: small;
         }
 
 }

@@ -21,27 +21,31 @@ const Navdrawer = ({ open, setOpen }) => {
         <Box
           sx={{  backgroundColor: 'rgb(239, 250, 239)',width: "100vw", display: "flex" }}
         >
+          <div className="w-screen flex justify-between items-center">
+           <Link to='/'> <Typography className = 'fitbitName'>Better You<span className='period'>.</span></Typography></Link>
           <IconButton>
-            <CloseIcon sx={{ color: "#000" , backgroundColor: 'rgb(239, 250, 239)'}} />
-          </IconButton>
+
+         <CloseIcon sx={{ color: "#000" , backgroundColor: 'rgb(239, 250, 239)'}} />
+         </IconButton>
+         </div>
+          
         </Box>
         <Box
           sx={{
           
             height: "200px",
             display: "flex",
-            justifyContent: "center",
+            justifyContent: "left",
             alignItems: "center",
             color: "#000",
             backgroundColor: 'rgb(239, 250, 239)',
           }}
         >
           <Stack spacing={3}>
-          {/* <Typography color="#000" sx={{cursor:'pointer'}}>About Us</Typography> */}
 <Link to='/services'><Typography color="#000" sx={{cursor:'pointer'}}> Services</Typography></Link>
                  <Typography color="#000" sx={{cursor:'pointer'}}> Blog</Typography>
                     <Typography color="#000" sx={{cursor:'pointer'}}>Join Team</Typography>
-                    <Link to='/login'> <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} ><RiAccountCircleFill className="md:text-2xl text-xl" /></Typography> </Link>
+                    <Link to='/loggedin'> <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} ><RiAccountCircleFill className="md:text-2xl text-xl" /></Typography> </Link>
           </Stack>
         </Box>
       </Drawer>
