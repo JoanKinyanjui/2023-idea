@@ -21,33 +21,33 @@ const onHandleSubmit =async(e)=>{
     navigate('/')
 
    //Register User...
-// const response = await fetch('http://localhost:3000/signup',{
-//     method:'POST',
-//     headers:{
-//       'Content-Type':'application/json'
-//     },
-//     body:JSON.stringify({
-//       username,
-//       email,
-//       password
-//     }),
-//    });
-// if(response.status == 201){
-//     const {user} = await response.json();
-//     await setError(`Congratulations ${user.username} , you have successfully signed in`)
-//     navigate('/')
-// }else if(response.status == 400){
-//    const {errors} = await response.json();
-//       if (errors.password){
-//        setError(errors.password)
-//       }else if(errors.username){
-//        setError(errors.username)
-//       }else if(errors.email){
-//        setError(errors.email)
-//       }else{
-//         setError('Something went wrong,Try signing up later')
-//       }
-// }
+const response = await fetch('http://localhost:3000/signup',{
+    method:'POST',
+    headers:{
+      'Content-Type':'application/json'
+    },
+    body:JSON.stringify({
+      username,
+      email,
+      password
+    }),
+   });
+if(response.status == 201){
+    const {client} = await response.json();
+    await setError(`Congratulations ${client.username} , you have successfully signed in`)
+    navigate('/')
+}else if(response.status == 400){
+   const {errors} = await response.json();
+      if (errors.password){
+       setError(errors.password)
+      }else if(errors.username){
+       setError(errors.username)
+      }else if(errors.email){
+       setError(errors.email)
+      }else{
+        setError('Something went wrong,Try signing up later')
+      }
+}
 
     }
    
