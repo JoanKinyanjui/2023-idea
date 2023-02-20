@@ -9,7 +9,7 @@ function Messages() {
        <img src='/images/pexels-biola-visuals-15122857.jpg' className='Messages-img'/>
        <div className='grid px-3 '>
        <p className='flex justify-start'>Sharon Njogu</p>
-       <p className='flex  justify-start text-gray-500 text-sm'>Hae Joan, I hope you are sleeping better .</p>
+       <p className='flex  justify-start text-gray-500 text-sm'>Hae too Joan.</p>
        </div>
        </div>
        

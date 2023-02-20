@@ -41,7 +41,7 @@ function ServiceButtons() {
     <div>
     <Link to='/assessmentPage'>
     <button className='actual-service-button couple  animate__animated animate__pulse'>
-            <p>Cuople</p>
+            <p>Couple</p>
             <p> (For me and my partner )</p>
     </button>
     </Link>

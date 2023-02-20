@@ -152,6 +152,8 @@ margin: auto;
 /* Messages */
 .Message{
     min-height: 15vh;
+    width: 80%;
+    margin: auto;
 }
 .Messages-img{
     width: 50px;
@@ -172,4 +174,10 @@ margin: auto;
 }
 .text-no{
     font-size: xx-small;
+}
+
+@media only screen and (max-width:468px){
+   .Message{
+    width: 100%;
+   }
 }
