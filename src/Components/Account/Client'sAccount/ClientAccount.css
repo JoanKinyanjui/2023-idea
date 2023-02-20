@@ -83,13 +83,13 @@ margin: auto;
     /* Favourites */
     .Favourites-Accordion{
         width: 60%;
-        height: 100px;
-        background-color: rgb(236, 252, 236);
+        height: 150px;    
+        background-color: gainsboro;
         border-radius: 20px;
     }
     .Favourites-img{
         width: 20%;
-        height: 100px;
+        height: 150px;
         border-radius: 100%;
     }
     .Favourites-content{
@@ -98,14 +98,14 @@ margin: auto;
     }
     @media only screen and (max-width:920px){
         .Favourites-Accordion{
-            width: 70%;
+            width: 60%;
             font-size: medium;
             border-radius: 20px;
         }
         }
     @media only screen and (max-width:768px){
             .Favourites-Accordion{
-                width: 80%;
+                width: 70%;
                 height: 80px;
                 font-size: small;
                 border-radius: 20px;
@@ -114,10 +114,62 @@ margin: auto;
         height: 80px;
     }
     }
-    @media only screen and (max-width:768px){
+    @media only screen and (max-width:468px){
         .Favourites-Accordion{
-            width: 90%;
+            width: 70%;
             font-size: smaller;
-            border-radius: 12px;
+          
+          border-radius: 12px;
 }
+.italic{
+    font-size: xx-small;
+}
+}
+
+
+/* Plans Subscription */
+.PlanCards{
+    width: 50%;
+    height: 50vh;
+    background-color: gainsboro;
+    margin: auto;
+    border-radius: 20px;
+}
+.Upgrade-plan-btn{
+    background-color:green;
+    color: antiquewhite;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+    @media only screen and (max-width:768px){
+      .PlanCards{
+        width: 70%;
+        height: 40vh;
+      }
+}
+
+
+/* Messages */
+.Message{
+    min-height: 15vh;
+}
+.Messages-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.message-no{
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 100%;
+    color: white;
+    font-size: xx-small;
+}
+.message-time{
+    font-size: smaller;
+    color: gray;
+}
+.text-no{
+    font-size: xx-small;
 }

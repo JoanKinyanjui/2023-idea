@@ -16,13 +16,13 @@ function Favourites() {
         <RiStarSFill />
         <RiStarSFill />
        </p>
-       <p className='text-green-600'><FaMinus /></p>
+       <p className='text-green-600 px-2'><FaMinus /></p>
        </div>
-        <div className='flex w-full justify-between'>
-            <p className='pl-2'>Faithn Gathigia</p>
+        <div className='flex w-full justify-between items-center'>
+            <p className='pl-2 py-2'>Faith Gathigia</p>
             <p className='pr-2'>ksh 200</p>
         </div>
-        <p className='pl-2'>Trauma,family conflict,marriage ...</p>
+        <p className='pl-2 text-gray-500 italic'>Trauma,family conflict,marriage ...</p>
     </div>
 </div>
     </div>
@@ -36,13 +36,13 @@ function Favourites() {
         <RiStarSFill />
         <RiStarSFill />
        </p>
-       <p className='text-green-600'><FaMinus /></p>
+       <p className='text-green-600 px-2'><FaMinus /></p>
        </div>
-        <div className='flex w-full justify-between'>
-            <p className='pl-2'>Irene Muthoni</p>
+        <div className='flex w-full justify-between items-center'>
+            <p className='pl-2 py-2'>Irene Muthoni</p>
             <p className='pr-2'>ksh 1000</p>
         </div>
-        <p className='pl-2'>Trauma,family conflict,marriage ...</p>
+        <p className='pl-2 text-gray-500 italic'>Trauma,family conflict,marriage ...</p>
     </div>
 </div>
     </div>
