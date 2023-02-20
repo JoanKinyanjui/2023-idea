@@ -1,0 +1,123 @@
+.ClientAccount{
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+        background-image: url('/public/images/background1.jpg');
+        background-size: cover;
+}
+.ClientBio-nav{
+    position: absolute;
+    top: 0;
+}
+.ClientBio{
+    width: 100vw;
+    height: 60vh;
+    position: absolute !important;
+    top: 0 !important;
+    background-image: url('/public/another.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* border: 1px solid rgb(11, 36, 11) !important; */
+}
+.ClientBio-img{
+width: 280px;
+height: 280px;
+border-radius: 100%;
+margin: auto;
+}
+.ClientBio-content{
+    width: max-content;
+    height: max-content;
+    margin: auto;
+}
+.Profile{
+    padding-top: 65vh;
+    position: relative;
+    width: 60%;
+}
+@media only screen and (max-width:1200px){
+    .ClientBio-img{
+        width: 250px;
+        height: 250px;
+    }
+    .ClientBio{
+        height: 65vh;
+    }
+    .Profile{
+        padding-top: 63vh;
+        position: relative;
+        width: 70%;
+    }
+    }
+@media only screen and (max-width:920px){
+.ClientBio{
+    height: 45vh;
+}
+.ClientBio-img{
+    width: 200px;
+    height: 200px;
+}
+.Profile{
+    padding-top: 47vh;
+    position: relative;
+    width: 80%;
+}
+}
+@media only screen and (max-width:468px){
+    .ClientBio{
+        background-size: cover;
+        height: 40vh;
+    }
+    .ClientBio-img{
+        width: 120px;
+        height: 120px;
+    }
+    .Profile{
+        padding-top: 42vh;
+        position: relative;
+        width: 100%;
+    }
+    }
+
+    /* Favourites */
+    .Favourites-Accordion{
+        width: 60%;
+        height: 100px;
+        background-color: rgb(236, 252, 236);
+        border-radius: 20px;
+    }
+    .Favourites-img{
+        width: 20%;
+        height: 100px;
+        border-radius: 100%;
+    }
+    .Favourites-content{
+        width: 80%;
+        text-align: left;
+    }
+    @media only screen and (max-width:920px){
+        .Favourites-Accordion{
+            width: 70%;
+            font-size: medium;
+            border-radius: 20px;
+        }
+        }
+    @media only screen and (max-width:768px){
+            .Favourites-Accordion{
+                width: 80%;
+                height: 80px;
+                font-size: small;
+                border-radius: 20px;
+    }
+    .Favourites-img{
+        height: 80px;
+    }
+    }
+    @media only screen and (max-width:768px){
+        .Favourites-Accordion{
+            width: 90%;
+            font-size: smaller;
+            border-radius: 12px;
+}
+}

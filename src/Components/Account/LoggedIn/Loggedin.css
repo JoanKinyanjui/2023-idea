@@ -1,7 +1,7 @@
 .LoggedIn{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(246, 252, 246);
+    background-color: rgb(244, 250, 244);
 }
 .big-screen{
     padding-top: 10vh;
@@ -9,6 +9,11 @@
     height: max-content;
     /* background-color: antiquewhite; */
     display: grid;
+    background-image: url('/public/images/pexels-cátia-matos-1072179.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(204, 224, 204);
 }
 .big-screen-div{
     display: flex;
@@ -70,6 +75,12 @@
 
 .small-screen{
     padding-top: 8vh;
+    background-image: url('/public/images/pexels-cátia-matos-1072179.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    color: rgb(204, 224, 204);
 }
 .small-client-img{
     /* background-color: green; */

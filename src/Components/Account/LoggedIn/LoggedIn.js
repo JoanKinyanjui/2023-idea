@@ -39,17 +39,23 @@ function LoggedIn() {
 <Tabs
 defaultActiveKey="profile"
 id="fill-tab-example"
-className="mb-3 "
+className="mb-3 bg-transparent"
 fill
 >
-<Tab eventKey="home" title={<BsFillSuitHeartFill className='text-green-600 text-xl mx-2' />}>
-  favourite therapist
+<Tab eventKey="home"  title={<BsFillSuitHeartFill className='text-green-600 text-xl mx-auto' /> }>
+  <div className='bg-blue-green w-full h-screen'>
+    Favourites
+  </div>
 </Tab>
-<Tab eventKey="profile" title={  <Badge badgeContent={2} color="primary"><BsFillChatDotsFill  className='text-green-600 text-xl mx-2' /> </Badge>}>
+<Tab eventKey="profile" title={  <Badge badgeContent={2} color="primary"><BsFillChatDotsFill  className='text-green-600 text-xl  mx-auto' /> </Badge>}>
+<div className='bg-blue-green w-full h-screen'>
 Chats with subscribed therapists
+</div>
 </Tab>
-<Tab eventKey="longer-tab" title={<IoMdSettings  className='text-green-600 text-xl mx-2' />}>
+<Tab eventKey="longer-tab" title={<IoMdSettings  className='text-green-600 text-xl  mx-auto' /> }>
+<div className='bg-blue-green w-full h-screen'>
  account settings
+ </div>
 </Tab>
 
 </Tabs>
@@ -87,13 +93,13 @@ Chats with subscribed therapists
       className="mb-3"
       fill
     >
-      <Tab eventKey="home" title={<BsFillSuitHeartFill className='text-green-600 text-xl mx-2' />}>
+      <Tab eventKey="home" title={<BsFillSuitHeartFill className='text-green-600 text-xl mx-auto' />}>
         favourite therapist
       </Tab>
-      <Tab eventKey="profile" title={  <Badge badgeContent={2} color="primary"><BsFillChatDotsFill  className='text-green-600 text-xl mx-2' /> </Badge>}>
+      <Tab eventKey="profile" title={  <Badge badgeContent={2} color="primary"><BsFillChatDotsFill  className='text-green-600 text-xl mx-auto' /> </Badge>}>
       Chats with subscribed therapists
       </Tab>
-      <Tab eventKey="longer-tab" title={<IoMdSettings  className='text-green-600 text-xl mx-2' />}>
+      <Tab eventKey="longer-tab" title={<IoMdSettings  className='text-green-600 text-xl mx-auto' />}>
        account settings
       </Tab>
 

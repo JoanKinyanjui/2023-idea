@@ -7,6 +7,7 @@ const MONGO_URI = process.env.MONGO_URI ;
 const appRoutes = require('./routes/routes');
 const cors = require('cors');
 const bodyParser = require('body-parser');
+const path = require('path')
 
 // middleware
 app.use(cors({origin: true, credentials: true}));
@@ -21,3 +22,4 @@ app.listen(3000,()=>{ console.log('Db connection successful and server running o
 )
 .catch((err)=> console.log(err));
 app.use(appRoutes);
+

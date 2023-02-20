@@ -10,7 +10,8 @@ import PaymentPage from './Components/Booking Process/PaymentPage/PaymentPage';
 import BookingSummary from './Components/Booking Process/BookingSummary/BookingSummary';
 import Login from './Components/Account/Login';
 import SignUp from './Components/Account/SignUp';
-import LoggedIn from './Components/Account/LoggedIn/LoggedIn';
+// import LoggedIn from './Components/Account/LoggedIn/LoggedIn';
+import ClientAccount from './Components/Account/Client\'sAccount/ClientAccount';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
     <Route exact path='/johnMackenzie' element={<TherapistsProfile />} />
     <Route exact path='/paymentPage' element={<PaymentPage />} />
     <Route exact path='/summary' element={<BookingSummary />} />
-    <Route exact path='/loggedin' element={<LoggedIn />} />
+    <Route exact path='/loggedin' element={<ClientAccount />} />
     <Route exact path='/login' element={<Login />} />
     <Route exact path='/signup' element={<SignUp />} />
     </Routes>
