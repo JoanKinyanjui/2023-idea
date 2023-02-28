@@ -3,7 +3,7 @@ import './HowWeHelp.css';
 import {help} from './Help'
 
 function SwiperComponent({help}) {
-  console.log(help)
+  // console.log(help)
   return (
     <>
 <div key={help.id}>

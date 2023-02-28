@@ -84,12 +84,12 @@ margin: auto;
     .Favourites-Accordion{
         width: 60%;
         height: 150px;    
-        background-color: gainsboro;
-        border-radius: 20px;
+        background-color:gainsboro;
+        border-radius: 0px;
     }
     .Favourites-img{
-        width: 20%;
-        height: 150px;
+        width: 25%;
+        height: 100px;
         border-radius: 100%;
     }
     .Favourites-content{
@@ -106,12 +106,13 @@ margin: auto;
     @media only screen and (max-width:768px){
             .Favourites-Accordion{
                 width: 70%;
-                height: 80px;
+                height: 120px;
                 font-size: small;
-                border-radius: 20px;
+                border-radius: 10px;
     }
     .Favourites-img{
         height: 80px;
+        width: 20%;
     }
     }
     @media only screen and (max-width:468px){
@@ -119,7 +120,7 @@ margin: auto;
             width: 70%;
             font-size: smaller;
           
-          border-radius: 12px;
+          border-radius: 8px;
 }
 .italic{
     font-size: xx-small;

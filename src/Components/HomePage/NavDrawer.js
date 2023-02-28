@@ -43,7 +43,7 @@ const Navdrawer = ({ open, setOpen }) => {
         >
           <Stack spacing={3}>
 <Link to='/services'><Typography color="#000" sx={{cursor:'pointer'}}> Services</Typography></Link>
-                 <Typography color="#000" sx={{cursor:'pointer'}}> Blog</Typography>
+<Link to='/blog'> <Typography color="#000" sx={{cursor:'pointer'}}> Blog</Typography></Link>
                     <Typography color="#000" sx={{cursor:'pointer'}}>Join Team</Typography>
                     <Link to='/loggedin'> <Typography color="#000" sx={{cursor:'pointer', fontFamily:"System"}} ><RiAccountCircleFill className="md:text-2xl text-xl" /></Typography> </Link>
           </Stack>

@@ -33,10 +33,12 @@ const response = await fetch('http://localhost:3000/signup',{
     }),
    });
 if(response.status == 201){
-    const {client} = await response.json();
+    const {client,token} = await response.json();
     await setError(`Congratulations ${client.username} , you have successfully signed in`)
+   await localStorage.setItem('token',token);
     navigate('/')
 }else if(response.status == 400){
+  navigate('/signup')
    const {errors} = await response.json();
       if (errors.password){
        setError(errors.password)

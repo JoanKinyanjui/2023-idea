@@ -22,21 +22,13 @@ const handleErrors=(err)=>{
 }
 
 
-// module.exports.signup_get =(req,res)=>{
-//     res.render('signup');
-// }
-
-// module.exports.login_get =(req,res)=>{
-//     res.render('login');
-// }
-
 module.exports.signup_post =async(req,res)=>{
     const {username,email,password}= req.body;
     try{
         const client = await Client.create({username,email,password});
         // create Token ...
         const token = jwt.sign(
-          {client_id: client.id,email: client.email},
+          {email: client.email},
           process.env.JWT_SECRET,
           {
             expiresIn:"2h"
@@ -44,11 +36,13 @@ module.exports.signup_post =async(req,res)=>{
         )
         //save token ...
         client.token = token
-       return  res.status(201).json({client})
+        console.log(client.token)
+       return  res.status(201).json({client,token:client.token})
     }
     catch(err){
         const errors = handleErrors(err);
         // status 400 == bad client request ...
+        console.log(errors)
        return  res.status(400).json({errors})
       
     }
@@ -62,7 +56,7 @@ module.exports.login_post = async (req,res)=>{
           //if user log in success, generate a JWT token for the user with a secret key
           const token = jwt.sign(
             {client_id: client.id,email: client.email},
-            'hae',
+            process.env.JWT_SECRET,
             {
               expiresIn:"2h"
             }
@@ -91,17 +85,17 @@ module.exports.login_post = async (req,res)=>{
 
 
 //Check to make sure header is not undefined, if so, return Forbidden (403)
-module.exports.checkToken = (req, res, next) => {
-  const header = req.headers['authorization'];
+// module.exports.checkToken = (req, res, next) => {
+//   const header = req.headers['authorization'];
 
-  if(typeof header !== 'undefined') {
-      const bearer = header.split(' ');
-      const token = bearer[1];
+//   if(typeof header !== 'undefined') {
+//       const bearer = header.split(' ');
+//       const token = bearer[1];
 
-      req.token = token;
-      next();
-  } else {
-      //If header is undefined return Forbidden (403)
-      res.sendStatus(403)
-  }
-}
+//       req.token = token;
+//       next();
+//   } else {
+//       //If header is undefined return Forbidden (403)
+//       res.sendStatus(403)
+//   }
+// }

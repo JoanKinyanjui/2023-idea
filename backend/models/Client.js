@@ -5,15 +5,13 @@ const bcrypt = require('bcrypt');
 
 
 const  clientSchema = new Schema({
-  username:{
+username:{
     type:String,
-    //custom error message
     required:[true,"Please entrer a username"],
     unique:true,
   },
 email:{
   type:String,
-  //custom error message
   required:[true,"Please entrer an email"],
   unique:true,
   lowercase:true,
@@ -24,15 +22,20 @@ password:{
     required:[true,"Please enter your password"],
     minlength:[8,"please input a min length of 6 characters"],
 },
-accessToken: { 
-    type: String, 
-    default: null
- }
+phoneNumber:{
+     type:Number,
+     minlength:[10,"Please enter correct phone Number"]
+},
+reviews:[{
+     type: Schema.Types.ObjectId,
+     ref:'Reviews'
+}],
+
 });
 
 //fire a function after a new user has been saved to db...
 clientSchema.post('save',function(doc,next){
-console.log('new client was saved',doc);
+// ...console.log('new client was saved',doc);
 next()
 })
 
@@ -42,7 +45,7 @@ clientSchema.pre('save',async function(next){
   const salt = await bcrypt.genSalt()
   this.password=await bcrypt.hash(this.password,salt)
 ;  //this refers to user...
-console.log("client about to be saved",this)
+//... console.log("client about to be saved",this)
   next()
 })
 

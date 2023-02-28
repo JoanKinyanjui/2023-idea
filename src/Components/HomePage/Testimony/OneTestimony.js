@@ -2,7 +2,7 @@ import React from 'react';
 import './Testimony.css'
 
 function OneTestimony({help}) {
-    console.log(help)
+    // console.log(help)
     return (
       <>
   <div key={help.id} className="testimony-div-carousel py-4 md:py-12 mb-4">

@@ -37,8 +37,8 @@ function HowWeHelp() {
       zoom={true}
       pagination={{ clickable: true }}
     //   scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
+      // onSwiper={(swiper) => console.log(swiper)}
+      // onSlideChange={() => console.log('slide change')}
       autoplay={{
         delay: 5000,
         disableOnInteraction: false,

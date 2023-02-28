@@ -12,6 +12,7 @@ import Login from './Components/Account/Login';
 import SignUp from './Components/Account/SignUp';
 // import LoggedIn from './Components/Account/LoggedIn/LoggedIn';
 import ClientAccount from './Components/Account/Client\'sAccount/ClientAccount';
+import Blog from './Components/Blog/Blog';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
     <Route exact path='/loggedin' element={<ClientAccount />} />
     <Route exact path='/login' element={<Login />} />
     <Route exact path='/signup' element={<SignUp />} />
+    <Route exact path='/blog' element={<Blog />} />
     </Routes>
       </div>
     </Router>
