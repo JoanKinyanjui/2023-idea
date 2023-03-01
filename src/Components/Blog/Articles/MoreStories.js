@@ -8,13 +8,14 @@ import 'swiper/css';
 import SwiperCore,{ Navigation, Pagination, Scrollbar, A11y ,Zoom,Autoplay} from 'swiper';
 import OneArticle from './OneArticle';
 import './Articles.css'
+import { singleArticles } from './SingleArticles';
 
 SwiperCore.use([Autoplay,Pagination,Navigation]);
 
 
 function MoreStories() {
   return (
-    <div className='More-div py-12'>
+    <div className='More-div py-6'>
             <Swiper
      style={{
         "--swiper-navigation-color": " rgb(72, 211, 65)",
@@ -48,11 +49,10 @@ function MoreStories() {
     //   }}
     >
   
-        <SwiperSlide><OneArticle /></SwiperSlide>
-        <SwiperSlide><OneArticle /></SwiperSlide>
-        <SwiperSlide><OneArticle /></SwiperSlide>
-        <SwiperSlide><OneArticle /></SwiperSlide>
-        <SwiperSlide><OneArticle /></SwiperSlide>
+      
+      {singleArticles.map((article,index)=>(
+  <SwiperSlide key={article.id}><OneArticle article={article} /></SwiperSlide>
+      ))}
       .
     </Swiper>
     </div>

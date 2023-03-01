@@ -42,10 +42,10 @@
 /* Hero Section */
 .Blog-Hero{
      max-width: 100vw;
-     height: 80vh;
+     height: 90vh;
      margin-top: -20px;
-     background-image: url('/public/images/writealetter.jpg') !important;
-     background-position: bottom;
+     background-image: url('/public/images/pexels-tirachard-kumtanom-733852.jpg') !important;
+     background-position: top right;
      background-size: cover;
      background-attachment: fixed;
      position: relative;
@@ -53,17 +53,49 @@
 .gradient-div{
     bottom: 0;
     position: absolute;
-    background-image: linear-gradient(to top,rgb(27, 29, 27),transparent,transparent,transparent);
+    /* background-image: linear-gradient(to top,rgb(27, 29, 27),transparent,transparent,transparent); */
 }
 .animation-div{
     position: absolute;
     top:0;
 }
 .blog-sub-div{
-    width: 30vw;
-    height: 25vh;
+    width: 20vw;
+    height: 30vh;
     color: whitesmoke;
-    background-color: rgb(102, 168, 37);
+    /* background-color: rgb(102, 168, 37); */
+    position: relative;
+}
+.connect-social-media{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* background-color: black; */
+    border-radius: 100%;
+}
+.connect-blend{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    mix-blend-mode: soft-light;
+}
+.connect-social-icon:hover {
+    background-color: rgb(7, 10, 7);
+    -webkit-animation: shake 1s !important;
+    animation: shake 1s !important;
+    cursor: pointer;
+    color: green;
+}
+
+.connect-social-icon{
+    position: absolute;
+    color: white;
+}
+@media only screen and (max-width:1200px){
+   .blog-sub-div{
+    width: 25vh;
+   }
 }
 @media only screen and (max-width:920px){
     .blog-sub-div{
@@ -72,17 +104,24 @@
     }
 }
 @media only screen and (max-width:620px){
+    .Blog-Hero{
+        height: 75vh;
+        background-position: top center !important;
+    }
     .blog-sub-div{
-        width: 50vw;
-        height: 25vh;
+        width: 30vw;
+        height: 23vh;
     }
 }
 @media only screen and (max-width:468px){
         .blog-sub-div{
-            width: 60vw;
-            height: 25vh;
+            width: 40vw;
+            height: 23vh;
     }
 }
 .animate__animated.animate__fadeIn{
-    --animate-duration: 4s;
+    --animate-duration: 3s;
+  }
+  .animate__animated.animate__rotateIn{
+    --animate-duration: 2s;
   }

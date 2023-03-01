@@ -15,8 +15,11 @@ function Articles() {
   </Grid>
   <Grid item xs={10} md={6}>
     <div className='grid items-center md:h-full'>
-       <div className=' iish flex flex-nowrap md:block place-content-center md:place-content-start py-8 text-3xl md:text-5xl'> 
-       <p>Why People need</p> <p className='text-green-600 md; px-2'> Therapy ?</p>
+       <div className=' iish hidden md:block flex-nowrap place-content-center md:place-content-start py-8 text-3xl md:text-5xl'> 
+       <p className=''>Why People need</p> <p className='text-green-600 px-2 py-1'> Therapy ?</p>
+       </div>
+       <div className=' iish flex md:hidden flex-nowrap  place-content-center md:place-content-start py-8 text-3xl md:text-5xl'> 
+       <p className=''>Why People need</p> <p className='text-green-600 md;'> Therapy ?</p>
        </div>
        <div className='py-4'>
         <p className=' article-content text-normal md:text-lg'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis .

@@ -1,13 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Articles.css'
 
-function OneArticle() {
+function OneArticle({article}) {
   return (
-    <div>
+    <div className='pb-12'>
         <div>
-        <img src="/images/pexels-tirachard-kumtanom-733852.jpg" className='one-article-img' />
+        <img src={article.image} className='one-article-img' />
         </div>
-        <p className='py-2'>Writing a journal increases your mental health by 90%</p>
+  <div className='one-article-content'>
+  <p className='py-2'>{article.title}</p>
+        <div className='article-readmore w-full flex justify-content-center italic text-green-600'>
+          <Link to=''>Read more</Link>
+        </div>
+  </div>
     </div>
   )
 }
