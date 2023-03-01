@@ -16,7 +16,7 @@ function BlogHero() {
               <p className='mx-auto'> <FaInstagramSquare className='text-2xl sm:text-4xl'  /></p>
             </div>
         </div>
-        <div className='blog-sub-div place-self-center animate__animated  animate__heartBeat  animate__repeat-2 animate__delay-1s'>
+        <div className='blog-sub-div place-self-center animate__animated  animate__heartBeat  animate__repeat-2 '>
         <img  className='connect-social-media' src='/images/tiktok.jpg'/>
         <div className='connect-blend'></div>
         <div className='connect-social-icon grid  items-center place-content-center w-full h-full'>

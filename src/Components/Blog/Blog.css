@@ -62,7 +62,7 @@
     top:0;
 }
 .blog-sub-div{
-    width: 25vw;
+    width: 22vw;
     height: 30vh;
     color: whitesmoke;
     /* background-color: rgb(102, 168, 37); */
@@ -80,6 +80,7 @@
     width: 100%;
     height: 100%;
     background-color: black;
+    border-radius: 100%;
     mix-blend-mode: soft-light;
 }
 .connect-social-icon:hover {
@@ -123,12 +124,13 @@
     }
     .blog-sub-div{
         width: 28vw;
-        height: 20h;
+        height: 16h;
     }
 }
 @media only screen and (max-width:468px){
     .Blog-Hero{
-        height: 45vh;
+        height: 54vh !important;
+        background-color: aqua;
     }
         .blog-sub-div{
             width: 32vw;
