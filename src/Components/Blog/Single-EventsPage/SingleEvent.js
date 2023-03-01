@@ -4,9 +4,9 @@ import './SEvent.css'
 
 function SingleEvent() {
   return (
-    <div className='single-event-page flex place-content-center items-center'>
+    <div className='single-event-page grid place-content-center items-center'>
         <p>Coming Soon</p>
-        <Link to='/blog'><p className='text-xl text-green-600'>Go back</p></Link>
+        <Link to='/blog'><p className='text-xl text-green-600 py-8'>Go back</p></Link>
         </div>
   )
 }
