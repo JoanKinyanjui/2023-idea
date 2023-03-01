@@ -15,6 +15,7 @@ import ClientAccount from './Components/Account/Client\'sAccount/ClientAccount';
 import Blog from './Components/Blog/Blog';
 import SinglePage from './Components/Blog/SinglePage/SinglePage';
 import SingleEvent from './Components/Blog/Single-EventsPage/SingleEvent';
+import WriteArticle from './Components/Blog/WriteArtcle/WriteArticle';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
     <Route exact path='/blog' element={<Blog />} />
     <Route exact path='/blog/singlepage' element={<SinglePage />} />
     <Route exact path='/events' element={<SingleEvent />} />
+    <Route exact path='/write' element={<WriteArticle />} />
     </Routes>
       </div>
     </Router>

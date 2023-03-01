@@ -1,0 +1,103 @@
+.Back-write{
+    font-family: System;
+    font-size: large;
+    font-weight: 500;
+    /* background-color: rgb(240, 248, 240); */
+}
+.woddap{
+    width: 100vw;
+    min-height: 100vh;
+     background-color: rgb(246, 250, 246);
+     position: relative;
+}
+.write-article-top-div{
+    width: 50vw;
+    margin: auto;
+}
+.article-label{
+    text-align: left;
+    padding-bottom: 1rem;
+}
+.write-article-content{
+    min-height: 40vh;
+}
+.write-article-input-div{
+    height: 10vh;
+}
+.better-you-logo-write-page{
+width: 50%;
+height: auto;
+}
+input:active{
+    border: 1px solid green !important;
+}
+.Popup-article{
+    position: absolute;
+    top: 10%;
+}
+.Popup-article-div{
+    width: 50%;
+    background-color: gainsboro;
+    color: black;
+    min-height: 20vh;
+
+}
+@media only screen and (max-width:920px){
+.write-article-top-div{
+    width: 55vw;
+}
+}
+@media only screen and (max-width:768px){
+.write-article-top-div{
+    width: 65vw;
+}
+.better-you-logo-write-page{
+width: 60%;
+height: auto;
+}
+.publish-article{
+    width: 140px;
+    height: 29px;
+    background-color: green;
+    color: white;
+    line-height: 35px;
+}
+.Popup-article-div{
+    width: 60%;
+    font-size: medium;
+}
+}
+@media only screen and (max-width:520px){
+.write-article-top-div{
+    width: 90vw;
+}
+.better-you-logo-write-page{
+width: 70%;
+height: auto;
+}
+.Popup-article-div{
+    width: 70%;
+    font-size: small;
+}
+}
+@media only screen and (max-width:420px){
+.write-article-top-div{
+    width: 98vw;
+}
+.better-you-logo-write-page{
+width: 80%;
+height: auto;
+}
+.Popup-article-div{
+    width: 80%;
+    font-size: small;
+}
+
+}
+.publish-article{
+    width: 160px;
+    height: 35px;
+    background-color: green;
+    color: white;
+    line-height: 35px;
+}

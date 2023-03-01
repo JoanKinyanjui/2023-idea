@@ -28,9 +28,9 @@ function Stories() {
 {/* </div> */}
 </div>
 <div className='video-watch-2  grid md:fleitems-center place-content-center'>
-    <div className='individual-suggested-video'>
+<div className='individual-suggested-video'>
     <div className='w-full  h-full items-center  flex place-content-center individual-suggested-icon'><p className='my-auto'><MdOutlinePlayCircleOutline className='text-white  text-3xl'/></p></div>
-        <div className='suggested-video-img'><img src='https://images.pexels.com/photos/4077869/pexels-photo-4077869.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load' className='individual-suggested-video-img h-full' /></div>
+        <img src='https://images.pexels.com/photos/8236417/pexels-photo-8236417.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load' className='individual-suggested-video-img h-full' />
     </div>
     <div className='individual-suggested-video'>
     <div className='w-full  h-full items-center  flex place-content-center individual-suggested-icon'><p className='my-auto'><MdOutlinePlayCircleOutline className='text-white  text-3xl'/></p></div>

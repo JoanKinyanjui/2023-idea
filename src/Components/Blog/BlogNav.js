@@ -1,17 +1,18 @@
 import { Typography } from '@material-ui/core';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Blog.css'
+import './Blog.css';
+import {BiEdit} from 'react-icons/bi'
 
 function BlogNav() {
   return (
     <div className='BlogNav flex items-center  h-full'>
 <div className='flex items-center justify-between w-screen md:w-5/6 mx-auto'>
-<Link to='/'> <Typography className = 'fitbitName'>Better You<span className='period'>.</span></Typography></Link>
-<div className='animate__animated animate__bounceIn animate__repeat-2'> <p className='text-green-600'>Welcome To Our Blog !</p></div>
+<Link to='/'> <p className = 'fitbitName'>Better You<span className='period'>.</span></p></Link>
+<Link to='/write' ><BiEdit className='text-3xl md:text-4xl'/></Link>
 </div>
     </div>
   )
 }
 
-export default BlogNav
+export default BlogNav;

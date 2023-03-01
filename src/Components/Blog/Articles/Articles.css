@@ -37,6 +37,12 @@
     position: absolute;
     bottom: 0;
 }
+@media only screen and (max-width:950px){
+    .article-content{
+        text-align: center;
+        width: 100%;
+    }
+}
 @media only screen and (max-width:768px){
     .one-article-img{
         width: 100%;
@@ -49,6 +55,7 @@
     } 
     .article-content{
         text-align: center;
+        width: 100%;
     }
     .main-article-img{
         width: 80%;

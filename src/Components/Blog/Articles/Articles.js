@@ -10,7 +10,7 @@ function Articles() {
 
     <div className='Even-more-stories items-center flex place-content-center'>
         <div className='flex place-content-center justify-content-center'>
-<Grid container maxWidth='xl' rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} className='grid place-content-center py-4'>
+<Grid container maxWidth='xl' rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} className='grid place-content-center pb-4'>
   <Grid item xs={10} md={6} className='grid items-center'>
     <div><img src='/images/pexels-alex-green-5699424.jpg' className='main-article-img py-2'/></div>
   </Grid>
