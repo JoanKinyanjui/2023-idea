@@ -11,7 +11,7 @@ function SinglePage() {
     <img src='https://images.pexels.com/photos/3768593/pexels-photo-3768593.jpeg?auto=compress&cs=tinysrgb&w=1600' className='single-page-img'/>
 </div>
 <div className='w-11/12 md:w-5/6 mx-auto'>
-    <p className='text-3xl sm:text-4xl font-medium single-page-title py-4 md:py-6'>What I Wish I Had Known on My 20-Year Mental Health Journey</p>
+    <p className='text-2xl sm:text-4xl font-medium single-page-title py-4 md:py-6'>What I Wish I Had Known on My 20-Year Mental Health Journey</p>
 </div>
 <div className='author-date flex items-center place-content-center w-full justify-between py-2'>
    <div className='w-3/4 md:w-1/2 flex justify-between mx-auto  items-center '>
