@@ -13,6 +13,8 @@ import SignUp from './Components/Account/SignUp';
 // import LoggedIn from './Components/Account/LoggedIn/LoggedIn';
 import ClientAccount from './Components/Account/Client\'sAccount/ClientAccount';
 import Blog from './Components/Blog/Blog';
+import SinglePage from './Components/Blog/SinglePage/SinglePage';
+import SingleEvent from './Components/Blog/Single-EventsPage/SingleEvent';
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
     <Route exact path='/login' element={<Login />} />
     <Route exact path='/signup' element={<SignUp />} />
     <Route exact path='/blog' element={<Blog />} />
+    <Route exact path='/blog/singlepage' element={<SinglePage />} />
+    <Route exact path='/events' element={<SingleEvent />} />
     </Routes>
       </div>
     </Router>

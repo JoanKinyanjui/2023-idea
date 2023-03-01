@@ -1,0 +1,80 @@
+.SinglePage{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(249, 252, 249);
+}
+.single-page-img-div{
+    width: 100%;
+    height: auto;
+
+}
+.single-page-img{
+    width: 45vw;
+    height: 70vh;
+}
+.author-date{
+    width: 100%;
+    background-color: rgb(226, 220, 220);
+    /* background-color: black; */
+    /* color: white; */
+    font-size: medium ;
+}
+.single-page-title{
+    text-align: center;
+}
+.single-page-content{
+    width: 100%;
+}
+.single-page-content-p{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.single-page-content-p::first-letter{
+    font-size: 4rem;
+    font-weight: bold;
+    color: green;
+}
+@media only screen and (max-width:920px){
+    .single-page-img{
+        width: 45vw;
+        height: 60vh;
+    }
+    .single-page-content-p{
+        width: 60%;
+        margin: auto;
+    }
+    .single-page-content-p::first-letter{
+        font-size: 4rem;
+        font-weight: bold;
+        color: green;
+    }
+}
+@media only screen and (max-width:768px){
+    .single-page-img{
+        width: 45vw;
+        height: 50vh;
+    }
+    .single-page-content-p{
+        width: 70%;
+        margin: auto;
+    }
+    .single-page-content-p::first-letter{
+        font-size: 3rem;
+        font-weight: bold;
+        color: green;
+    }
+    .author-date{
+        font-size: small;
+    }
+}
+@media only screen and (max-width:520px){
+    .single-page-img{
+        width: 60vw;
+        height: 45vh;
+    }
+    .single-page-content-p{
+        width: 90%;
+        margin: auto;
+    }
+}

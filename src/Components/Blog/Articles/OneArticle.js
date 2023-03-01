@@ -11,7 +11,7 @@ function OneArticle({article}) {
   <div className='one-article-content'>
   <p className='py-2'>{article.title}</p>
         <div className='article-readmore w-full flex justify-content-center italic text-green-600'>
-          <Link to=''>Read more</Link>
+          <Link to='/blog/singlepage'>Read more</Link>
         </div>
   </div>
     </div>

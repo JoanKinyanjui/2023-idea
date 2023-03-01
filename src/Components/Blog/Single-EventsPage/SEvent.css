@@ -1,0 +1,10 @@
+.single-event-page{
+    width: 100vw;
+    min-height: 100vh;
+    font-size: 40px;
+}
+@media only screen and (max-width:768px){
+    .single-event-page{
+        font-size: 24px;
+    }
+}
