@@ -27,7 +27,7 @@ function Stories() {
 <img  src='https://images.pexels.com/photos/7149180/pexels-photo-7149180.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load' className='w-11/12 xs:w-5/6 md:3/4 mx-auto md:ml-auto h-full'/>
 {/* </div> */}
 </div>
-<div className='video-watch-2  grid md:fleitems-center place-content-center'>
+<div className='video-watch-2  grid md:flex items-center place-content-center '>
 <div className='individual-suggested-video'>
     <div className='w-full  h-full items-center  flex place-content-center individual-suggested-icon'><p className='my-auto'><MdOutlinePlayCircleOutline className='text-white  text-3xl'/></p></div>
         <img src='https://images.pexels.com/photos/8236417/pexels-photo-8236417.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load' className='individual-suggested-video-img h-full' />

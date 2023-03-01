@@ -12,7 +12,7 @@ function WriteArticle() {
   return (
     <div  >
 <div className='BlogNav flex items-center  h-full'>
-<div className='flex items-center justify-between w-screen md:w-5/6 mx-auto'>
+<div className='flex items-center justify-between w-11/12 md:w-5/6 mx-auto'>
 <Link to='/'> <p className = 'fitbitName'>Better You<span className='period'>.</span></p></Link>
 <Link to='/blog' ><p className='Back-write font-normal text-green-600'>Back</p></Link>
 </div>
