@@ -85,7 +85,7 @@
     -webkit-animation: shake 1s !important;
     animation: shake 1s !important;
     cursor: pointer;
-    color: green;
+    /* color: green; */
 }
 
 .connect-social-icon{
@@ -122,6 +122,10 @@
 .animate__animated.animate__fadeIn{
     --animate-duration: 3s;
   }
-  .animate__animated.animate__rotateIn{
+.animate__animated.animate__rotateIn{
     --animate-duration: 2s;
-  }
+}
+.animate__animated.animate__bounceInUp{
+    --animate-duration: 5s;
+    --animate-repeat: 1000;
+}
