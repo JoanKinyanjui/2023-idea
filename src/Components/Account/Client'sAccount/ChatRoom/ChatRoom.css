@@ -57,6 +57,7 @@ input{
 }
 input[type=text]:focus{
     border: 1px transparent solid !important;
+    outline: none;
 }
 .ChatThread{
     position: absolute;

@@ -1,5 +1,6 @@
 import React from 'react';
-import {ImSearch} from 'react-icons/im'
+import {ImSearch} from 'react-icons/im';
+import './ChatRoom/ChatRoom.css'
 
 function MessageSearchBar() {
   return (

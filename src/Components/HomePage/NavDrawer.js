@@ -35,7 +35,7 @@ const Navdrawer = ({ open, setOpen }) => {
           
             height: "200px",
             display: "flex",
-            justifyContent: "left",
+            justifyContent: "center",
             alignItems: "center",
             color: "#000",
             backgroundColor: 'rgb(239, 250, 239)',
