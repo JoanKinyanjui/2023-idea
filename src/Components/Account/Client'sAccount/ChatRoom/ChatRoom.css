@@ -1,7 +1,7 @@
 .Absolute-ChatRoom{
     width: 100vw;
     /* height: max-content; */
-    min-height: 100vh;
+    min-height: 98vh;
     background-image: url('/public/images/background1.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
     width: 50vw;
     border-radius: 35px;
     margin: auto;
-    min-height: 100vh;
+    min-height: 98vh;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
