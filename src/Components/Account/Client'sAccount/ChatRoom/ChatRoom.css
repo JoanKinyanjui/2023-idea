@@ -39,6 +39,7 @@
     /* background-image: linear-gradient(to top,green,transparent); */
     height: 8vh;
     width: 100%;
+    /* position: fixed; */
 }
 .ChatRoom-input-send-div{
     position: absolute;
@@ -78,7 +79,7 @@ border-radius: 100%;
     min-height: 40px;
     background-color: rgb(204, 202, 202);
     text-align: left;
-    border-radius: 5px;
+    border-radius:0px 7px 7px 7px;
 
 }
 .own-account-chat-message p{
@@ -99,7 +100,7 @@ border-radius: 100%;
     background-color: rgb(231, 230, 230);
     /* background-color: gainsboro; */
     text-align: left;
-    border-radius: 5px;
+    border-radius: 7px 0px 7px 7px;
 }
 .therapist-account-chat-message p{
     margin-left: 3px;
