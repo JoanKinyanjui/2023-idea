@@ -1,12 +1,35 @@
-.ChatRoom{
+.Absolute-ChatRoom{
     width: 100vw;
-    min-height: 100vh;
+    height: max-content;
     background-image: url('/public/images/background1.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.ChatRoom{
+    width: 50vw;
+    border-radius: 35px;
+    margin: auto;
+    min-height: 100vh;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
+
+@media only screen and (max-width:1200px){
+.ChatRoom{
+    width: 60vw;
+}
+}
+@media only screen and (max-width:920px){
+    .ChatRoom{
+        width: 100vw;
+        background-image: url('/public/images/background1.jpg');
+    }
+}
+
 .ChatRoom-Navbar{
     position: absolute;
     top: 0%;
@@ -17,7 +40,7 @@
 .ChatRoom-input-send-div{
     position: absolute;
     bottom: 0%;
-    background-color: rgb(236, 240, 235);
+    background-color: rgb(217, 226, 215);
     width: 100%;
     height: 6vh;
 }

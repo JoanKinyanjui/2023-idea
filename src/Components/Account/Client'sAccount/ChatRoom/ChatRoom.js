@@ -9,7 +9,8 @@ import { Link } from 'react-router-dom';
 
 function ChatRoom() {
   return (
-    <div className='ChatRoom'>
+<div className='Absolute-ChatRoom'>
+<div className='ChatRoom'>
         <div className='ChatRoom-Navbar flex items-center justify-between bg-green-600'>
            <div className='flex items-center'>
            <Link to='/loggedin'><IoIosArrowBack className='text-neutral-900 text-3xl md:text-4xl px-1' /></Link>
@@ -35,6 +36,7 @@ function ChatRoom() {
     </div>
         </div>
     </div>
+</div>
   )
 }
 
