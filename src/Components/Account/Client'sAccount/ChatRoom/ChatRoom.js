@@ -16,9 +16,9 @@ function ChatRoom() {
            <Link to='/loggedin'><IoIosArrowBack className='text-neutral-900 text-3xl md:text-4xl px-1' /></Link>
            <p className='px-2 text-neutral-900'>Dr. Irene Muthoni</p>
            </div>
-           <div className='flex items-center'>
-            <MdCall className='text-neutral-900 text-2xl md:text-3xl px-1 ' />
-           <MdVideocam className='text-neutral-900 text-2xl md:text-3xl px-1' />
+           <div className='flex items-center pr-1'>
+            <MdCall className='text-neutral-900 text-3xl px-1 ' />
+           <MdVideocam className='text-neutral-900 text-3xl px-1' />
            </div>
         </div>
         <div>
@@ -31,8 +31,8 @@ function ChatRoom() {
     </div>
     <input type='text'  className='border w-3/4 py-0 md:py-2'/>
     <div className='flex items-center'>
-        <HiMicrophone  className='text-green-600 text-2xl md:text-3xl px-1'/>
-        <IoIosSend className='text-green-600  text-2xl md:text-3xl px-1' />
+        <HiMicrophone  className='text-green-600 text-3xl  px-1'/>
+        <IoIosSend className='text-green-600 text-3xl px-1' />
     </div>
         </div>
     </div>
