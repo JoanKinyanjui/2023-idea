@@ -130,7 +130,7 @@
 @media only screen and (max-width:468px){
     .Blog-Hero{
         height: 54vh !important;
-        background-color: aqua;
+        /* background-color: aqua; */
     }
         .blog-sub-div{
             width: 32vw;
