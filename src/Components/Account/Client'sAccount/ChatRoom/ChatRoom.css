@@ -73,7 +73,7 @@ border-radius: 100%;
 .own-account-chat-message{
     width: 50%;
     min-height: 40px;
-    background-color: gainsboro;
+    background-color: rgb(204, 202, 202);
     text-align: left;
     border-radius: 5px;
 
