@@ -1,10 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './ClientAccount.css'
 
 function Messages() {
   return (
     <div className='Message'>
-      <div className='flex items-center justify-between py-3 border-b py-1 border-t'>
+<Link to='/chatroom' >
+<div className='flex items-center justify-between py-3 border-b py-1 border-t'>
        <div className='flex '>
        <img src='/images/pexels-biola-visuals-15122857.jpg' className='Messages-img'/>
        <div className='grid px-3 '>
@@ -18,6 +20,7 @@ function Messages() {
 <div className='message-no flex items-center place-content-center text-no'>2</div>
 </div>
       </div>
+</Link>
     </div>
   )
 }

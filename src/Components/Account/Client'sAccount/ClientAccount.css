@@ -2,8 +2,8 @@
     width: 100vw;
     min-height: 100vh;
     position: relative;
-        background-image: url('/public/images/background1.jpg');
-        background-size: cover;
+    background-image: url('/public/images/background1.jpg');
+    background-size: cover;
 }
 .ClientBio-nav{
     position: absolute;

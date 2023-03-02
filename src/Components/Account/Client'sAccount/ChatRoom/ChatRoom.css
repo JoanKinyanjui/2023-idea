@@ -1,0 +1,121 @@
+.ChatRoom{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('/public/images/background1.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.ChatRoom-Navbar{
+    position: absolute;
+    top: 0%;
+    /* background-color: green; */
+    height: 8vh;
+    width: 100%;
+}
+.ChatRoom-input-send-div{
+    position: absolute;
+    bottom: 0%;
+    background-color: rgb(236, 240, 235);
+    width: 100%;
+    height: 6vh;
+}
+input{
+    background-color: rgb(251, 253, 250);
+    border-radius: 8px;
+}
+input[type=text]:focus{
+    border: 1px transparent solid !important;
+}
+.ChatThread{
+    width: 100%;
+    height: max-content;
+    padding-top: 10vh;
+}
+.own-account-chat-img{
+    width: 60px;
+    height: 70px;
+}
+.own-account-chat-img-spec{
+width: 100%;
+height: 100%;
+border-radius: 100%;
+}
+.own-account-chat-message{
+    width: 50%;
+    min-height: 40px;
+    background-color: rgb(237, 238, 237);
+    text-align: left;
+    border-radius: 5px;
+
+}
+.own-account-chat-message p{
+    margin-left: 3px;
+}
+.therapist-account-chat-img{
+    width: 60px;
+    height: 70px;
+}
+.therapist-account-chat-img-spec{
+width: 100%;
+height: 100%;
+border-radius: 100%;
+}
+.therapist-account-chat-message{
+    width: 50% !important;
+    min-height: 40px;
+    background-color:rgb(196, 199, 196);
+    text-align: left;
+    border-radius: 5px;
+}
+.therapist-account-chat-message p{
+    margin-left: 3px;
+}
+.chat-input{
+    width: 100% !important;
+}
+@media only screen and (max-width:920px){
+    .own-account-chat-message{
+        width: 60%;
+    
+    }
+    .own-account-chat-img{
+        width: 50px;
+        height: 55px;
+    }
+    .therapist-account-chat-message{
+        width: 60%;
+    
+    }
+    .therapist-account-chat-img{
+        width: 50px;
+        height: 55px;
+    }
+}
+@media only screen and (max-width:620px){
+    .own-account-chat-message{
+        width: 70%;
+        min-height: 30px;
+    
+    }
+    .own-account-chat-img{
+        width: 40px;
+        height: 45px;
+    }
+    .own-account-chat-message p{
+        margin-left: 2px;
+    }
+    .therapist-account-chat-message{
+        width: 70%;
+        min-height: 30px;
+    
+    }
+    .therapist-account-chat-img{
+        width: 40px;
+        height: 45px;
+    }
+    .therapist-account-chat-message p{
+        margin-left: 2px;
+    }
+}
