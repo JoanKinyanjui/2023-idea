@@ -15,7 +15,7 @@
     height: 60vh;
     position: absolute !important;
     top: 0 !important;
-    background-image: linear-gradient(to bottom,rgb(88, 114, 88),transparent);
+    background-image: linear-gradient(to bottom,rgb(124, 170, 124),transparent);
     /* background-image: linear-gradient(to bottom,rgb(161, 170, 161),transparent); */
     /* background-image: url('/public/another.png'); */
     background-repeat: no-repeat;
