@@ -13,12 +13,12 @@ function ChatRoom() {
 <div className='ChatRoom'>
         <div className='ChatRoom-Navbar flex items-center justify-between '>
            <div className='flex items-center'>
-           <Link to='/loggedin'><IoIosArrowBack className='text-neutral-900 text-3xl md:text-4xl px-1' /></Link>
-           <p className='px-2 text-neutral-900'>Dr. Irene Muthoni</p>
+           <Link to='/loggedin'><IoIosArrowBack className='text-green-600 text-3xl md:text-4xl px-1' /></Link>
+           <p className='px-2 text-green-600'>Dr. Irene Muthoni</p>
            </div>
            <div className='flex items-center pr-1'>
-            <MdCall className='text-neutral-900 text-3xl px-1 ' />
-           <MdVideocam className='text-neutral-900 text-3xl px-1' />
+            <MdCall className='text-green-600 text-4xl px-2 ' />
+           <MdVideocam className='text-green-600 text-4xl px-2' />
            </div>
         </div>
         <div>
@@ -29,10 +29,10 @@ function ChatRoom() {
     <div>
     <BsPlus className='text-green-600 text-4xl md:text-5xl font-black px-1'/>
     </div>
-    <input type='text'  className='border w-1/2 md:w-3/4 py-0 md:py-2'/>
+    <input type='text'  className=' w-4/6 md:w-3/4 py-0 md:py-2'/>
     <div className='flex items-center'>
-        <HiMicrophone  className='text-green-600 text-3xl  px-1'/>
-        <IoIosSend className='text-green-600 text-3xl px-1' />
+        <HiMicrophone  className='text-green-600 text-4xl  px-2'/>
+        <IoIosSend className='text-green-600 text-4xl px-2' />
     </div>
         </div>
     </div>
