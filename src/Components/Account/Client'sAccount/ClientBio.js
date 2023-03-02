@@ -13,7 +13,7 @@ function ClientBio() {
         <Link to=''> <Typography className = 'fitbitName'>Better You<span className='period'>.</span></Typography></Link>
         </div>
         <div className='grid mx-auto'>
-        <img  src='/images/pexels-polina-tankilevitch-5234578.jpg' className='ClientBio-img '/>
+        <img  src='https://images.pexels.com/photos/4052752/pexels-photo-4052752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='ClientBio-img '/>
          <p className='mx-auto w-full'><MdEdit /></p>
         <div className='ClientBio-content'>
         <p className='py-1' >Joan Kinyanjui</p>
